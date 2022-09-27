@@ -20,7 +20,7 @@ https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_
 https://superuser.com/questions/1661724/how-do-i-find-my-username-and-servername-for-windows-ssh-server
 
 ### Overcome challenges
-Still working on getting the key permission right, I already changed the key permission like the video in the youtube link shows. Even though it still won't allow me to access the VM.
+Still working on getting the key permission right, I already changed the key permission like the video in the youtube link shows. Even though it still won't allow me to access the VM. After finally figuring out that the command had to exist out of the Path to the key, username and IP adress, along with a command to get the SSH Port right. It finally allowed me to get in and typ "whoami". Screenshots can be found in
 
 ### Results
 No positive results yet. The negative results at the moment was without changing permissions that it didn't work and having changed the permissions for the key it didn't work either. After the second round in the afternoon 
