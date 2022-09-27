@@ -28,4 +28,4 @@ Still working on getting the key permission right, I already changed the key per
 
 ![no login](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/OpenSSH%20failed%20key.png)
 ![key usage](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/Still%20no%20access.png)
-![Succes]()
+![Succes](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/whoami.png)
