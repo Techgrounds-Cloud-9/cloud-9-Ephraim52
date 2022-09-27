@@ -67,4 +67,4 @@ I found the directory I was working in with pwd which shows which directory you 
 
 ![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/added%20txt%20file%2Btext.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/relative%20%26%20absolute%20path.png)
