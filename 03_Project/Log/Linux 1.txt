@@ -25,3 +25,6 @@ Still working on getting the key permission right, I already changed the key per
 
 ### Results
  After the second round in the afternoon I managed to finish the command which was needed to login and use whoami to check which user I am.
+
+![no login](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/OpenSSH%20failed%20key.png)
+![key usage]()
