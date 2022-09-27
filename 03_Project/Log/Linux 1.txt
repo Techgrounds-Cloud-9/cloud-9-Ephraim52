@@ -1,0 +1,26 @@
+# Linux assingment 1
+Log into the Virtual Machine using the key provided.
+
+## Key terminology
+Virtual Machine - A device existing without physical form in cloud/network.
+Hypervisor - Is the host and manages the guests on the VM (Virtual Machine)
+
+## Exercise
+### Sources
+https://en.wikipedia.org/wiki/Hypervisor
+
+https://superuser.com/questions/1296024/windows-ssh-permissions-for-private-key-are-too-open
+
+https://www.youtube.com/watch?v=ZcC4Eq0a5Mw
+
+https://superuser.com/questions/1666505/how-to-set-600-permission-on-a-pem-file-in-w10
+
+https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui
+
+
+
+### Overcome challenges
+Still working on getting the key permission right, I already changed the key permission like the video in the youtube link shows. Even though it still won't allow me to access the VM.
+
+### Results
+No positive results yet. The negative results at the moment was without changing permissions that it didn't work and having changed the permissions for the key it didn't work either.
