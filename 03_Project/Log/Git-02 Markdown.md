@@ -21,5 +21,3 @@ A short HTML document with a head, paragraph and some random text.
 The second document in Markdown language contains a head, some text and an image URL.
 
 ![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/VSc%20code%20and%20markdown%20doc.png)
-
-![markdown/HTML doc](00_includes/VSc code and markdown doc.png)
