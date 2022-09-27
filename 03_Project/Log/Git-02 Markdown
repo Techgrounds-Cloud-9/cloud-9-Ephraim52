@@ -6,11 +6,16 @@ Markdown
 Markup
 
 ## Exercise
+Making a Markdown document, the content doesn't matter from how I read it.
+
 ### Sources
 https://www.w3schools.com/html/html_intro.asp
 
 ### Overcome challenges
-None
+I did the assignment twice just to be sure I did it properly. I made one document in HTML code and the other one with Markdown preview in VSc. I kept looking for a way
+to put an image in the Markdown document and I decided it was best to use the URL from the website instead of setting a relative path. Which didn't want to work to save
+some time for doing the other assignments.
 
 ### Results
 A short HTML document with a head, paragraph and some random text.
+The second document in Markdown language containt a head, some text and an image URL.
