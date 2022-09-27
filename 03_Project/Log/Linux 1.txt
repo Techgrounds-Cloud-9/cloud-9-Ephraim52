@@ -17,7 +17,7 @@ https://superuser.com/questions/1666505/how-to-set-600-permission-on-a-pem-file-
 
 https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui
 
-
+https://superuser.com/questions/1661724/how-do-i-find-my-username-and-servername-for-windows-ssh-server
 
 ### Overcome challenges
 Still working on getting the key permission right, I already changed the key permission like the video in the youtube link shows. Even though it still won't allow me to access the VM.
