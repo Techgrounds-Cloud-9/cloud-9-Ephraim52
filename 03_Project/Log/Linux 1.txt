@@ -23,4 +23,4 @@ https://superuser.com/questions/1661724/how-do-i-find-my-username-and-servername
 Still working on getting the key permission right, I already changed the key permission like the video in the youtube link shows. Even though it still won't allow me to access the VM.
 
 ### Results
-No positive results yet. The negative results at the moment was without changing permissions that it didn't work and having changed the permissions for the key it didn't work either.
+No positive results yet. The negative results at the moment was without changing permissions that it didn't work and having changed the permissions for the key it didn't work either. After the second round in the afternoon 
