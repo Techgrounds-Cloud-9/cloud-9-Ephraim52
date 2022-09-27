@@ -61,7 +61,7 @@ In the links above that show command sheets I found the explanations connfusing 
 ### Results
 I found the directory I was working in with pwd which shows which directory you are currently in. I did need to add a few directories within the home directory as there were none. After that I used ls to view which directories and files were present in the home map. Which showed me Desktop, Pictures, Public and later in the added Techgrounds directory. I created the learn.txt file with the text "Learning to work and use commands in Linux!" which I viewed again with cat learn.txt and I edited it with echo single quot's to let it contain the mentioned text. Also I explored the directories by using the absolute and relative paths to find my way around.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/current%20directory.png)
 
 ![alt text]()
 
