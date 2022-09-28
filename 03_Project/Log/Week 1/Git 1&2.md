@@ -3,10 +3,15 @@ Creating a repository and pushing code and cloning.
 
 ## Key terminology
 In the exercise I encountered the following Key terminology:
+
 Pushing - requesting the code into a specific space
+
 Cloning
+
 Pull
+
 Push
+
 Commit
 
 ## Exercise

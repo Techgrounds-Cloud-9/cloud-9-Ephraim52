@@ -3,14 +3,22 @@ Create a new user give sudo permission add to group(s) and set a password.
 
 ## Key terminology
 Cat /etc/passwd= shows the usergroup
+
 Useradd “enter username”= creates a new user
+
 Id = shows user id group(s)
+
 Passwd welcome= allows you to add/change password for the user welcome
+
 Password will not appear and the cursor won’t move either this is ok it takes the input while being private.
+
 Group id: welcome: x : 1001 : 1001 : : /home/welcome/bin/sh
 1001 group ID between the double : : you can add your name 
+
 Cat /etc/group = shows the groups with the ID’s
+
 Useradd -G superheros ironman = adds a new user tot he existing group G respresenting a group
+
 Usermod -G superheros ironman = add existing user to the group also -g like this is primary group and -G is secondary and anything beyond that
 
 

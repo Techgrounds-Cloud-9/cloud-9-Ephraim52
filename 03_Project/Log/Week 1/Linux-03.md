@@ -3,10 +3,15 @@ redirecting output to other files
 
 ## Key terminology
 Pipe - "|" this symbol is the pipe can be used for the input or output of a command
+
 Less /home/dominic (path)= shows through the path what the content of the file is that it is directed to
+
 Grep allow you to search and filter as example: cat filename.txt | grep filename this case it shows the line/sentence where the word filename is indicated
+
 Cat filename.txt | grep filename > test.txt t oredirect the output of filename.txt to test.txt (also creates the new file test.txt)
+
 Echo ‘insert text’ > “filename.txt”= allows you to add text/content to the file after the redirection you can also insert a new filename to create another .txt
+
 Echo ‘insert text’ >> “filename.txt”= allows you to add another line through using double >> 
 
 ## Exercise

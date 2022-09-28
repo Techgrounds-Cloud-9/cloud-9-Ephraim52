@@ -3,6 +3,7 @@ Creating a document in a Markdown editor
 
 ## Key terminology
 Markdown
+
 Markup
 
 ## Exercise

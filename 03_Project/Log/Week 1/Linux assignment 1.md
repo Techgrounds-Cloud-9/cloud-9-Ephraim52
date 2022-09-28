@@ -3,6 +3,7 @@ Log into the Virtual Machine using the key provided.
 
 ## Key terminology
 Virtual Machine - A device existing without physical form in cloud/network.
+
 Hypervisor - Is the host and manages the guests on the VM (Virtual Machine)
 ssh -i path to key username@servername -p port id
 
