@@ -31,10 +31,10 @@ All I have been doing to solve these issues was search as specifically as possib
 ### Results
 The exercise taught me better on how to search more specifically which yielded better search results. As well ass how the commands work to eachother this allowed me to combine commands in a single line to produce the exercise.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d329f2cb7b1217642c0d61ee6fabcb567e9fef8c/00_includes/week%201/assignment%205/edited%20lines.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d329f2cb7b1217642c0d61ee6fabcb567e9fef8c/00_includes/week%201/assignment%205/only%20techgrounds.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d329f2cb7b1217642c0d61ee6fabcb567e9fef8c/00_includes/week%201/assignment%205/redirecting%20output.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d329f2cb7b1217642c0d61ee6fabcb567e9fef8c/00_includes/week%201/assignment%205/textfile%20made.png)
