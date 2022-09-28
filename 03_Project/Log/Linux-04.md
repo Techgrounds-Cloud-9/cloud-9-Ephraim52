@@ -30,14 +30,14 @@ I had to look into how to add a newly created user to a group and to add it to m
 ### Results
 The result is as shown in the multiple screenshots, where you can see that I added the new user "welcome" to the groups sudo and admin. As well as showing that I could find the info in the files group and passwd. In the end a final check to see if the user was able to use sudo rights.
 
-![screenshot]()
+![alt text]()
 
-![screenshot]()
+![alt text]()
 
-![screenshot]()
+![alt text]()
 
-!![screenshot]()
+!![alt text]()
 
-![screenshot]()
+![alt text]()
 
-![screenshot]()
+![alt text]()
