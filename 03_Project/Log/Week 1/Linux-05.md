@@ -30,16 +30,14 @@ While making notes of the video I understood how to execute the commands and had
 ### Results
 A new text file which no one but the assigned user and group have access to. While trying to read it from my user I was denied just like the assignment intended as shown in one of the images below.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/7bc574b8dfa7a952c463e81fd74e57fc58219b9a/00_includes/week%201/assignment%207/file%20permission.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/7bc574b8dfa7a952c463e81fd74e57fc58219b9a/00_includes/week%201/assignment%207/executing%20permission.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/7bc574b8dfa7a952c463e81fd74e57fc58219b9a/00_includes/week%201/assignment%207/others&group%20no%20permissions.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/7bc574b8dfa7a952c463e81fd74e57fc58219b9a/00_includes/week%201/assignment%207/permission%20denied.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/7bc574b8dfa7a952c463e81fd74e57fc58219b9a/00_includes/week%201/assignment%207/still%20readable.png)
 
-![alt text]()
-
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/7bc574b8dfa7a952c463e81fd74e57fc58219b9a/00_includes/week%201/assignment%207/group&user%20changed.png)
