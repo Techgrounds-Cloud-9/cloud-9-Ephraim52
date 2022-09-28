@@ -26,6 +26,6 @@ Still working on getting the key permission right, I already changed the key per
 ### Results
  After the second round in the afternoon I managed to finish the command which was needed to login and use whoami to check which user I am.
 
-![no login](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/OpenSSH%20failed%20key.png)
-![key usage](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/Still%20no%20access.png)
-![Succes](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/whoami.png)
+![no login](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/9a2b667f95517aca42a70fa81be83cd8d453976b/00_includes/week%201/assignment%203/OpenSSH%20failed%20key.png)
+![key usage](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/9a2b667f95517aca42a70fa81be83cd8d453976b/00_includes/week%201/assignment%203/Still%20no%20access.png)
+![Succes](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/9a2b667f95517aca42a70fa81be83cd8d453976b/00_includes/week%201/assignment%203/whoami.png)
