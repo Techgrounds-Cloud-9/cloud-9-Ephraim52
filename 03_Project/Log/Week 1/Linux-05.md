@@ -11,7 +11,7 @@ Chmod permissions filename= change mode, set permissions. You can also set permi
 Chmod 764 filename
 Ls -l shows list of files with owners and permissions
 + = adds permission
--= removes permission
+minus= (-) removes permission
 = sets permissions and overrides the permissions earlier set
 U = user
 G = group
