@@ -10,7 +10,7 @@ X= execute permission
 Chmod permissions filename= change mode, set permissions. You can also set permissions numerical.
 Chmod 764 filename
 Ls -l shows list of files with owners and permissions
-+ = adds permission
+(+) = adds permission
 minus= (-) removes permission
 = sets permissions and overrides the permissions earlier set
 U = user
