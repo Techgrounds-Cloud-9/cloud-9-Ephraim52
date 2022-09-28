@@ -39,8 +39,8 @@ In the second image you that the telnet daemon is active, the PID 7706 and the m
 
 The third image shows that I stopped the telnet process. As it shows as inactive.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/7de6b47f8f10e007eeeb48cd73478c80c4820d9b/00_includes/week%201/assignment%208/installing%20telnet%20daemon.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/7de6b47f8f10e007eeeb48cd73478c80c4820d9b/00_includes/week%201/assignment%208/PID&memory&active.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/7de6b47f8f10e007eeeb48cd73478c80c4820d9b/00_includes/week%201/assignment%208/stopped%20telnet%20daemon.png)
