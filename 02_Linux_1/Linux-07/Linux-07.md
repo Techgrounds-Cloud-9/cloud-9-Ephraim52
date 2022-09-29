@@ -17,7 +17,7 @@ https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
 https://www.geeksforgeeks.org/start-stop-restart-services-using-systemctl-in-linux/
 
 ### Overcome challenges
-[Give a short description of the challeges you encountered, and how you solved them.]
+I was struggling to get the httpd script running I tried executing it using my username and a password which I didn't know. I solved the problem by putting sudo in the command lines so that upon executing the httpd script it would run without question, which it did.
 
 ### Results
 [Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
