@@ -14,6 +14,8 @@ https://www.youtube.com/watch?v=SPwyp2NG-bE
 
 https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
 
+https://www.geeksforgeeks.org/start-stop-restart-services-using-systemctl-in-linux/
+
 ### Overcome challenges
 [Give a short description of the challeges you encountered, and how you solved them.]
 
