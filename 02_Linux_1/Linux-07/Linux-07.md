@@ -22,6 +22,10 @@ Sources exercise 2:
 
 https://www.youtube.com/watch?v=DS0VQAC-gak
 
+https://www.tutorialspoint.com/unix/unix-using-variables.htm#:~:text=A%20variable%20is%20a%20character,%2C%20assign%2C%20and%20delete%20variables.
+
+
+
 ### Overcome challenges
 I was struggling to get the httpd script running I tried executing it using my username and a password which I didn't know. I solved the problem by putting sudo in the command lines so that upon executing the httpd script it would run without question, which it did.
 
