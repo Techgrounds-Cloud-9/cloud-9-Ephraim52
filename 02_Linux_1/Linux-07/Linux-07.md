@@ -6,6 +6,8 @@
 
 ## Exercise
 ### Sources
+Sources exercise 1:
+
 https://www.tutorialspoint.com/unix_commands/httpd.htm#:~:text=httpd%20is%20the%20Apache%20HyperText,or%20threads%20to%20handle%20requests.
 
 https://medium.com/@ertorrez/use-a-script-to-install-and-launch-an-apache-server-on-centos-8-6db6e4b81cbf
@@ -15,6 +17,10 @@ https://www.youtube.com/watch?v=SPwyp2NG-bE
 https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
 
 https://www.geeksforgeeks.org/start-stop-restart-services-using-systemctl-in-linux/
+
+Sources exercise 2:
+
+https://www.youtube.com/watch?v=DS0VQAC-gak
 
 ### Overcome challenges
 I was struggling to get the httpd script running I tried executing it using my username and a password which I didn't know. I solved the problem by putting sudo in the command lines so that upon executing the httpd script it would run without question, which it did.
