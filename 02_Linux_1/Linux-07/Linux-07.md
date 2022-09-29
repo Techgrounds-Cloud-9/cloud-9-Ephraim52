@@ -28,6 +28,12 @@ https://www.youtube.com/watch?v=19nN9vgcgmU
 
 Sources exercise 3:
 
+https://www.youtube.com/watch?v=qoem5hqCH6A
+
+https://www.youtube.com/watch?v=19nN9vgcgmU
+
+https://acloudguru.com/blog/engineering/conditions-in-bash-scripting-if-statements
+
 
 
 ### Overcome challenges
