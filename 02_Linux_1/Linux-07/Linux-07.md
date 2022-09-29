@@ -97,22 +97,20 @@ I should have read the whole page of acloudguru.com as it contained the answer t
 ### Results
 [Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
 
-![alt text]()
+Script directory created
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/5a71d648ee01a25586a9f92c04e8057bf34b5349/00_includes/week%201/assignment%209/script_directory.png)
 
-![alt text]()
+Path script confirmed
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/5a71d648ee01a25586a9f92c04e8057bf34b5349/00_includes/week%201/assignment%209/add_scripts_confirmed.png)
 
-![alt text]()
+Text appended
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/main/00_includes/week%201/assignment%209/text_redirected_confirmation.png)
 
-![alt text]()
+executed httpd
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/5a71d648ee01a25586a9f92c04e8057bf34b5349/00_includes/week%201/assignment%209/httpd_script_executed.png)
 
-![alt text]()
+executed randomnumber generator
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/5a71d648ee01a25586a9f92c04e8057bf34b5349/00_includes/week%201/assignment%209/number_generated_textfile.png)
 
-![alt text]()
-
-![alt text]()
-
-![alt text]()
-
-![alt text]()
-
-![alt text]()
+Greater or lesser than
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/5a71d648ee01a25586a9f92c04e8057bf34b5349/00_includes/week%201/assignment%209/exercise3_smaller_than_5.png)
