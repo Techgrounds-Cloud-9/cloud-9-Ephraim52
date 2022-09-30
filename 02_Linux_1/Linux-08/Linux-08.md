@@ -39,15 +39,17 @@ One of the challenges I had was to figure out why it wouldn't execute the script
 So I looked up what did execute commands in this manner and found out that the backquote/backtick `` does this.
 
 ### Results
-[Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
-![alt text]()
+The script for showing current date and time.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d7cea2a5534a1dddd4752befcca9eceab2745284/00_includes/week%201/assignment%2010/time_date_script_LNX8.png)
 
-![alt text]()
+The result of the date and time script, you can also see that the execution went wrong 1 time as it shows the command date as text.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d7cea2a5534a1dddd4752befcca9eceab2745284/00_includes/week%201/assignment%2010/linux8_result1.png)
 
-![alt text]()
+Here both scripts are registred in crontab.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d7cea2a5534a1dddd4752befcca9eceab2745284/00_includes/week%201/assignment%2010/crontab_LNX8.png)
 
-![alt text]()
+Script for the available disk space
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d7cea2a5534a1dddd4752befcca9eceab2745284/00_includes/week%201/assignment%2010/space_script_LNX8.png)
 
-![alt text]()
-
-![alt text]()
+The result of the available disk space script.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d7cea2a5534a1dddd4752befcca9eceab2745284/00_includes/week%201/assignment%2010/linux8_result2.png)
