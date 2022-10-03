@@ -38,6 +38,6 @@ https://en.wikipedia.org/wiki/Hexadecimal
 I have not encountered any in this assignment.
 
 ### Results
-This is the assignment filled out:
+I filled out the assignment with a converter, after having tried to convert a few manually:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d4735f28439a805a929ab45b260e269d516bf862/00_includes/week%202/assignment%204/NTW-04_result.png)
