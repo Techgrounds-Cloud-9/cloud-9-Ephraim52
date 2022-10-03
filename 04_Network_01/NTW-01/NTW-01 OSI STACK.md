@@ -16,6 +16,8 @@ https://www.youtube.com/watch?v=aDf7mteQu3Q
 
 https://www.youtube.com/watch?v=CRdL1PcherM
 
+https://www.guru99.com/layers-of-osi-model.html
+
 ### Overcome challenges
 None it was easy to look up
 

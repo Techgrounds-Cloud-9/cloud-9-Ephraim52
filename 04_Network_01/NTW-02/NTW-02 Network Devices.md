@@ -24,6 +24,8 @@ https://www.tutorialspoint.com/what-are-repeaters-in-computer-network#:~:text=Re
 
 https://www.computernetworkingnotes.com/networking-tutorials/computer-networking-devices-explained-with-function.html
 
+https://www.techopedia.com/definition/24961/osi-protocols
+
 ### Overcome challenges
 
 Finding my long lost Modem password. The sticker was on an older laptop of mine.
