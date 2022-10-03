@@ -32,12 +32,12 @@ https://stackoverflow.com/questions/18249847/how-to-build-a-protocol-on-top-of-t
 https://www.quora.com/How-would-one-create-and-implement-their-own-networking-protocol
 
 ### Overcome challenges
-[Give a short description of the challeges you encountered, and how you solved them.]
+I didn't experience any challengs for this assignment.
 
 ### Results
 Here is an image of the protocols and their associated OSI layers:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/db07a95f148fcf65252d597c5a8769c6e9594a73/00_includes/week%202/assignment%203/NTW-03_protocols_osi_level.png)
 
 The organisations that determine what protocols we use are:
 
@@ -56,12 +56,10 @@ For introducing your own protocol it needs to be accepted by an IETF working gro
 
 Here I captured some of my network data with the protocol UDP:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/db07a95f148fcf65252d597c5a8769c6e9594a73/00_includes/week%202/assignment%203/NTW-03_capture_protocol.png)
 
 UDP a datagram is a method to transfer data between two devices in a network. Without having to establish a connection first, it can send packets directly. This is a faster way of transferring data but less reliable as it does not check if a packet arrived as intended.
 
 Here you see that compared to TCP UDP does not check or syncronize with the other device that receives the data. Also called a handshake.
 
-![alt text]()
-
-install wireshark on your own system.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/db07a95f148fcf65252d597c5a8769c6e9594a73/00_includes/week%202/assignment%203/NTW-03_TCP_vs_UDP.png)
