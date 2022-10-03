@@ -32,7 +32,7 @@ Finding my long lost Modem password. The sticker was on an older laptop of mine.
 
 This image shows the connected devices, for privacy I removed the adresses that were in the screen. But it shows mac & ip adresses, internet speed and to which device they are connected.
 
-[img]: https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/2626e837b01c1cb134fdd870be4418d741a9cc4d/00_includes/week%202/assignment%202/NTW-02_Devices.png
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/2626e837b01c1cb134fdd870be4418d741a9cc4d/00_includes/week%202/assignment%202/NTW-02_Devices.png)
 
 Here you can see the configuration options of the DHCP server. Pv4, Pv6 and a list of reserved IP adresses.
 
