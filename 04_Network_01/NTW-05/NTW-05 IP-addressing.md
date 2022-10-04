@@ -41,6 +41,8 @@ https://www.digitalcitizen.life/find-public-ip-address/#ftoc-heading-2
 
 https://store.jcrinc.com/assets/1/7/What_is_My_IP_Address.pdf
 
+https://www.guru99.com/how-to-change-ip-address.html
+
 ### Overcome challenges
 No challenges so far, I'm very (ec)static!
 
