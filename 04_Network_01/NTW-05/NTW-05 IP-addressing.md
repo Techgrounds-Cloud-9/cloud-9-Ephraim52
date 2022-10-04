@@ -45,6 +45,8 @@ https://www.guru99.com/how-to-change-ip-address.html
 
 https://www.businessinsider.com/guides/tech/how-to-change-your-ip-address?international=true&r=US&IR=T
 
+https://www.businessinsider.com/guides/tech/how-to-change-ip-address-on-android?international=true&r=US&IR=T
+
 ### Overcome challenges
 No challenges so far, I'm very (ec)static!
 
@@ -69,5 +71,17 @@ Changed my mobile its private IP address to my laptop its address:
 ![alt text]()
 
 Changed my ip address of my mobile to an address outside my local area network:
+
+![alt text]()
+
+My mobile phone is connected but when using the browser doesn’t respond as fast to finding a specified website.
+
+![alt text]()
+
+![alt text]()
+
+When changing the private IP address to a public IP address my mobile seems to have lost connection. As the webbrowser doesn’t load.
+
+![alt text]()
 
 ![alt text]()
