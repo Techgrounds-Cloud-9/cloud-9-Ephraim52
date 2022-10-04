@@ -28,10 +28,6 @@ https://en.wikipedia.org/wiki/Binary_number
 
 https://en.wikipedia.org/wiki/Decimal
 
-https://www.binaryhexconverter.com/decimal-to-binary-converter
-
-https://www.rapidtables.com/convert/number/decimal-to-binary.html
-
 https://en.wikipedia.org/wiki/Hexadecimal
 
 ### Overcome challenges

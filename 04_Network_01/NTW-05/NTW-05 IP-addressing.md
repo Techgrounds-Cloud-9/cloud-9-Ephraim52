@@ -1,0 +1,69 @@
+# IP-Addressing
+An introduction to how IP-adresses work and the differences between private and public addresses.
+
+## Key terminology
+IPv4= Internet Protocol version 4 using a 32-bit address space it is one of the core protocols of standards-based internetworking.
+
+IPv6= Internet Protocol version 6 is a successor to the IPv4 using 128-bit addresses it does the same as IPv4 but has more address space and as such can provide more than the IPv4 can.
+
+NAT= Network Address Translation it is a way of filing an IP Address space into another through modifying a network address's information in the IP Header of the packets.
+
+Static address= An IP address that doesn't change. Untill the device is decommissioned or your network architecture changes.
+
+Dynamic address= Are assigned by the DHCP when they are needed when IPv4 doesn't provide enough static addresses.
+
+Public address= This is the address that your device uses through your modem/router to identify your device on the Public internet and is external as such.
+
+Private address= This address is the one you use locally because it is internal in your Local Area Network (LAN) and is not used on the Public internet to identify yourself with to another device or website.
+
+Octet= Is a piece of an internet address public and private: 192.168.178.112 each 3 numbers before the dot represents an octet a piece of the IP address.
+
+DHCP= Dynamic Host Configuration Protocol
+
+## Exercise
+- Ontdek wat je publieke IP adres is van je laptop en mobiel op wifi.
+- Zijn de adressen hetzelfde of niet? Leg uit waarom.
+- Ontdek wat je privé IP adres is van je laptop en mobiel op wifi.
+- Zijn de adressen hetzelfde of niet? Leg uit waarom.
+- Verander het privé IP adres van je mobiel naar dat van je laptop. Wat gebeurt er dan?
+- Probeer het privé IP adres van je mobiel te veranderen naar een adres buiten je netwerk. Wat gebeurt er dan?
+
+### Sources
+https://en.wikipedia.org/wiki/Network_address_translation
+
+https://en.wikipedia.org/wiki/IPv4
+
+https://en.wikipedia.org/wiki/IPv6
+
+https://www.avast.com/c-static-vs-dynamic-ip-addresses#:~:text=A%20static%20IP%20address%20is,servers%20or%20other%20important%20equipment.
+
+https://www.digitalcitizen.life/find-public-ip-address/#ftoc-heading-2
+
+https://store.jcrinc.com/assets/1/7/What_is_My_IP_Address.pdf
+
+### Overcome challenges
+No challenges so far, I'm very (ec)static!
+
+### Results
+[Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+This is the public IP address of my laptop & mobile phone:
+
+![alt text]()
+
+![alt text]()
+
+The addresses are not the same because each device gets assigned their own static IP address through the Internet Protocol version 4 from the DHCP. If they would all have the same addresses then the connection would be unstable due to the conflict of everyone having the same address.
+
+This is the private IP address of my laptop & mobile phone:
+
+![alt text]()
+
+The addresses are the same in the first 3 octets only the last octet changes up to 255 because thats the amount available on IPv4. Two devices each their own address through the last octet being different.
+
+Changed my mobile its private IP address to my laptop its address:
+
+![alt text]()
+
+Changed my ip address of my mobile to an address outside my local area network:
+
+![alt text]()
