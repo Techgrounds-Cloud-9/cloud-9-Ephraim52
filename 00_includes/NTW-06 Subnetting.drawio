@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T12:40:00.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.0" etag="--kXeRXvepWOta_q1BH8" type="github"><diagram id="HtvCfCmLwlJMDdyX7uYw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-04T14:57:40.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="8EhfmZuUU1-anvrdiFFB" version="20.4.0" type="github">
+  <diagram id="HtvCfCmLwlJMDdyX7uYw" name="Pagina-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x2xZkPtlp9E_scuNY9_Y-1" value="&lt;h4&gt;Private subnet within your LAN&lt;/h4&gt;&lt;div&gt;IP address: 192.168.50.0&lt;/div&gt;&lt;div&gt;Usable Host IP range: 192.168.50.1 - 192.168.50.62/26&lt;/div&gt;&lt;div&gt;Broadcast address: 192.168.50.63&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Verdana;align=center;" vertex="1" parent="1">
+          <mxGeometry x="54" y="160" width="720" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="x2xZkPtlp9E_scuNY9_Y-3" value="&lt;h4&gt;&lt;font face=&quot;Verdana&quot;&gt;Private subnet with NAT Gateway&lt;/font&gt;&lt;/h4&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;IP address: 192.168.50.64&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;Usable Host IP range: 192.168.50.65 - 192.168.50.126/26&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;Broadcast address: 192.168.50.127&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="54" y="480" width="720" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="x2xZkPtlp9E_scuNY9_Y-4" value="&lt;h4&gt;Public subnet with Internet Gateway&lt;/h4&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="54" y="800" width="720" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
