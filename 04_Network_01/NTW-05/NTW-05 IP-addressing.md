@@ -43,6 +43,8 @@ https://store.jcrinc.com/assets/1/7/What_is_My_IP_Address.pdf
 
 https://www.guru99.com/how-to-change-ip-address.html
 
+https://www.businessinsider.com/guides/tech/how-to-change-your-ip-address?international=true&r=US&IR=T
+
 ### Overcome challenges
 No challenges so far, I'm very (ec)static!
 
