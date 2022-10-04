@@ -51,37 +51,32 @@ https://www.businessinsider.com/guides/tech/how-to-change-ip-address-on-android?
 No challenges so far, I'm very (ec)static!
 
 ### Results
-[Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
 This is the public IP address of my laptop & mobile phone:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/10579e1223d13e876763f151442f635873f45cbf/00_includes/week%202/assignment%205/NTW-05_public_ip.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/10579e1223d13e876763f151442f635873f45cbf/00_includes/week%202/assignment%205/Screenshot_20221004-101100_Chrome.jpg)
 
 The addresses are not the same because each device gets assigned their own static IP address through the Internet Protocol version 4 from the DHCP. If they would all have the same addresses then the connection would be unstable due to the conflict of everyone having the same address.
 
 This is the private IP address of my laptop & mobile phone:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/10579e1223d13e876763f151442f635873f45cbf/00_includes/week%202/assignment%205/NTW-05_ip_address_laptop_phone.png)
 
 The addresses are the same in the first 3 octets only the last octet changes up to 255 because thats the amount available on IPv4. Two devices each their own address through the last octet being different.
 
 Changed my mobile its private IP address to my laptop its address:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/10579e1223d13e876763f151442f635873f45cbf/00_includes/week%202/assignment%205/Screenshot_20221004-105747_Settings.jpg)
 
-Changed my ip address of my mobile to an address outside my local area network:
-
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/10579e1223d13e876763f151442f635873f45cbf/00_includes/week%202/assignment%205/NTW-05_ip_address_laptop_phone.png)
 
 My mobile phone is connected but when using the browser doesn’t respond as fast to finding a specified website.
 
-![alt text]()
+Changed my ip address of my mobile to an address outside my local area network:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/10579e1223d13e876763f151442f635873f45cbf/00_includes/week%202/assignment%205/Screenshot_20221004-110616_Settings.jpg)
 
 When changing the private IP address to a public IP address my mobile seems to have lost connection. As the webbrowser doesn’t load.
 
-![alt text]()
-
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/10579e1223d13e876763f151442f635873f45cbf/00_includes/week%202/assignment%205/Screenshot_20221004-110827_Chrome.jpg)
