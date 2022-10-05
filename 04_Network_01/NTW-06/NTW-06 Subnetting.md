@@ -31,6 +31,8 @@ https://www.calculator.net/ip-subnet-calculator.html?cclass=c&csubnet=26&cip=192
 
 https://docs.axway.com/bundle/SecureTransport_54_on_AWS_InstallationGuide_allOS_en_HTML5/page/Content/AWS/securitygroups/st_nat_gateway_subnet_routing.htm#:~:text=Navigate%20to%20Virtual%20Private%20Cloud,Click%20Create%20a%20NAT%20Gateway.
 
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html
+
 ### Overcome challenges
 Figuring out how to add a NAT Gateway and going from private to public. Just need to read through a lot of information from different sources to have the best understanding.
 
