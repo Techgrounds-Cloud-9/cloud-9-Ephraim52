@@ -17,16 +17,16 @@ Only finding out in the Linux machine which IP address was mine. Used various co
 ### Results
 At the first part I scanned the host and found all my fellow students on the same Network. Later on I used the other IP address and found only myself and more hosts.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/97c6c014faab952bff26ec347ade6e28d6a7b8b0/00_includes/week%202/assignment%207/Sec-01_network_fellow_students.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/97c6c014faab952bff26ec347ade6e28d6a7b8b0/00_includes/week%202/assignment%207/Sec-01_myself_more_hosts.png)
 
 Now I checked only my assigned IP address and only this came up:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/97c6c014faab952bff26ec347ade6e28d6a7b8b0/00_includes/week%202/assignment%207/Sec-01_only_myself.png)
 
 It is sending packets back and forth when opening a browser and surf a bit. As well as turning off the webcam it sends less packets.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/97c6c014faab952bff26ec347ade6e28d6a7b8b0/00_includes/week%202/assignment%207/Sec-01_beginning.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/97c6c014faab952bff26ec347ade6e28d6a7b8b0/00_includes/week%202/assignment%207/Sec-01_ending.png)
