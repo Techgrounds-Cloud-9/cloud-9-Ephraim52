@@ -29,10 +29,16 @@ https://www.1cloudhub.com/aws-vpc-101-creation-of-public-subnet-and-private-subn
 
 https://www.calculator.net/ip-subnet-calculator.html?cclass=c&csubnet=26&cip=192.168.50.0&ctype=ipv4&printit=0&x=72&y=20
 
+https://docs.axway.com/bundle/SecureTransport_54_on_AWS_InstallationGuide_allOS_en_HTML5/page/Content/AWS/securitygroups/st_nat_gateway_subnet_routing.htm#:~:text=Navigate%20to%20Virtual%20Private%20Cloud,Click%20Create%20a%20NAT%20Gateway.
+
 ### Overcome challenges
-[Give a short description of the challeges you encountered, and how you solved them.]
+Figuring out how to add a NAT Gateway and going from private to public. Just need to read through a lot of information from different sources to have the best understanding.
 
 ### Results
 The first part I made 4 subnets with 64 hosts available minus 2 because of the IP address itself and the broadcast address. Like in- and outgoing. It is basically dividing your Local area network in 4 which comes down to the 64 available IP addresses that you can assign or let users use.
 
 For the second part I took one of the subnets as an example on continueing with the remaining subnets that I had available from the example in the first part.
+
+For the third I simply used the third subnet and added an internet gateway as you can set that through settings on your operating system. All subnets have 62 hosts available and you can set their seperate addresses through IPv4.
+
+![alt text]()
