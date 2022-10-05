@@ -11,6 +11,8 @@ Found none.
 ### Sources
 https://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/
 
+https://www.youtube.com/watch?v=iG9WIAItPvY
+
 ### Overcome challenges
 Only finding out in the Linux machine which IP address was mine. Used various commands to get different results till I found my own.
 
