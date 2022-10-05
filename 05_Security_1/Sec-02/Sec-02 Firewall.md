@@ -41,14 +41,16 @@ Couldn't seem to get into the website I made on Linux, but in the end I found ou
 ### Results
 First part was installing and setting up Apache after that I checked the standard webpage in the editor to be sure everything was ok. To configure the firewall settings I had to use sudo ufw commands.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/3aa23bf0d0c632d06a1e7237823d84d6f58f10bf/00_includes/week%202/assignment%208/Sec-02_default_website_linux.png)
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/3aa23bf0d0c632d06a1e7237823d84d6f58f10bf/00_includes/week%202/assignment%208/Sec-02_allowing_access.png)
 
 Here you see the website how I wrote it in Linux and a view of the website online with just some text. To achieve this I made a few seperate new files: content.html (contains the html code for the website) and host_example.conf. Along with the directories host_example and html which is located in /var/www/host_example/html/content.html is the absolute path. For finding the website in the webbrowser I used the public IP address of the host along with the port.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/3aa23bf0d0c632d06a1e7237823d84d6f58f10bf/00_includes/week%202/assignment%208/Sec-02_html_content.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/3aa23bf0d0c632d06a1e7237823d84d6f58f10bf/00_includes/week%202/assignment%208/Sec-02_myownwebsite.png)
 
 The firewall is now blocking traffic while allowing ssh connection and checking the website:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/3aa23bf0d0c632d06a1e7237823d84d6f58f10bf/00_includes/week%202/assignment%208/Sec-02_deny_access.png)
