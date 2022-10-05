@@ -43,4 +43,4 @@ For the second part I took one of the subnets as an example on continueing with 
 
 For the third I simply used the third subnet and added an internet gateway as you can set that through settings on your operating system. All subnets have 62 hosts available and you can set their seperate addresses through IPv4.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a3d9dfe741674ac93b170b267b8c08d20c43197c/00_includes/week%202/assignment%206/NTW-06_Subnet_architecture.png)
