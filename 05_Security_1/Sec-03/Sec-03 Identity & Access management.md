@@ -30,7 +30,7 @@ The three factors of authentication are:
 
 - Something you have, like a keycard, hardware tokens, single use passwords that you receive through text message or e-mail. This helps reducing the risk of losing these physical items.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/9ab15c9aed22c5e26e43c7662b038f1832b551fc/00_includes/week%203/assignment%201/Sec-03_MFA.png)
 
 MFA improves security because its not only username and passwords you got other ways of identifying yourself. To protect you from social engineering or social hacking. (phishing e-mails) Like two-step authentication where you use your username & password and the second step being a physical key send through text message or e-mail.
 
