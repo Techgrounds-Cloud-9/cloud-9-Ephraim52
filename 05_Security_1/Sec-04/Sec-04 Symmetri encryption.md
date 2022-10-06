@@ -25,6 +25,8 @@ https://cheapsslsecurity.com/p/everything-you-need-to-know-about-an-ssl-cipher-c
 
 https://www.uvic.ca/systems/support/informationsecurity/fileencryption/encryptfile7zip.php
 
+https://setapp.com/how-to/password-protect-zip
+
 ### Overcome challenges
 Deciding on which cipher to use and in which order to add this for encrypting the key.
 
@@ -42,4 +44,3 @@ Two digital ciphers still being used today:
 TLS and SSL, both share similarities.
 
 For the last part of this exercise I transferred my excel sheet into an encrypted .zip file. The password being encrypted with a cipher and a slight hint in the .zip file name.
-
