@@ -8,6 +8,10 @@ Wireshark= Open source packet analyzer for network troubleshooting and analysis.
 
 DNS= Domain Name System, is a set of protocols and standards. Turns long IP adresses into user-friendly URL's.
 
+HTTPS= Hypertext Transfer Protocol Secure if you see this infront of a webaddress for example it means that its encrypted and secure.
+
+SSH= Secure Shellis a communication protocol to enable two computers to communicate in an encrypted manner.
+
 ## Exercise
 - Identify several other protocols and their associated OSI layer. Name at least one for each layer.
 - Figure out who determines what protocols we use and what is needed to introduce your own protocol.
@@ -30,6 +34,10 @@ https://computer.howstuffworks.com/internet/basics/who-owns-internet2.htm
 https://stackoverflow.com/questions/18249847/how-to-build-a-protocol-on-top-of-tcp
 
 https://www.quora.com/How-would-one-create-and-implement-their-own-networking-protocol
+
+https://www.healthit.gov/faq/what-does-https-web-address-mean#:~:text=Hypertext%20Transfer%20Protocol%20Secure%20(https,in%20browsers%20and%20Web%20servers.
+
+https://www.ucl.ac.uk/isd/what-ssh-and-how-do-i-use-it#:~:text=SSH%20or%20Secure%20Shell%20is,web%20pages)%20and%20share%20data.
 
 ### Overcome challenges
 I didn't experience any challengs for this assignment.
