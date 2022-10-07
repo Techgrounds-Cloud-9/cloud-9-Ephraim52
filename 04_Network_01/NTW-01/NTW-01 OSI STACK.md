@@ -7,6 +7,9 @@ OSI model= Open Systems Interconnection, has 7 layers stacked on eachother; appl
 TCP/IP model= Transmission Control Protocol/Internet Protocol are rules with communication protocols to connect network devices.
 
 ## Exercise
+- The OSI model and its uses.
+- The TCP/IP model and its uses.
+
 ### Sources
 https://www.techtarget.com/searchnetworking/definition/TCP-IP#:~:text=TCP%2FIP%20specifies%20how%20data,and%20received%20at%20the%20destination.
 
