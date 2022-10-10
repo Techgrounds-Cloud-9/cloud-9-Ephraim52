@@ -1,10 +1,22 @@
 # Symmetric encryption
-[Give a short summary of the subject matter.]
+Understanding how to encrypt data and send it in a secure way.
 
 ## Key terminology
 Symmetric encryption= A form of encrypting/decrypting your data/file using a single key.
 
 Caesar cipher= An encryption technique which Julius Caesar used for encrypting his messages. You use it by replacing the original letter in your text by for example 4 steps back in the alphabet. A, B, C, D, E, F: D would be Z for example as that would be 4 steps back from the letter in the text with E starting at A.
+
+Plaintext= Unencrypted information that can still be encrypted.
+
+Keystream= Is a stream of random characters combined with plaintext message makes an encrypted message.
+
+Ciphertext= Is the result of encrypting the plaintext using an algorithm, this prevents the loss of sensitive information.
+
+Diffie-Hellman= this is a method of exchanging keys in a secure way allowing to share key on an insecure channel using a symmetric key.
+
+AES= Advanced Encryption Standard is a variant of Rijndaels block cipher, is the standard way for securing data/plaintext.
+
+Block cipher= Is an algorithm that uses a group of bits.
 
 ## Exercise
 - Find two more historic ciphers besides the Caesar cipher.
@@ -26,6 +38,32 @@ https://cheapsslsecurity.com/p/everything-you-need-to-know-about-an-ssl-cipher-c
 https://www.uvic.ca/systems/support/informationsecurity/fileencryption/encryptfile7zip.php
 
 https://setapp.com/how-to/password-protect-zip
+
+https://www.php.net/manual/en/function.password-hash.php
+
+https://www.baeldung.com/cs/symmetric-cryptography
+
+https://crypto.stackexchange.com/questions/10371/how-is-the-key-shared-in-symmetric-key-cryptography#:~:text=Symmetric%20keys%20should%20be%20kept,secret%2C%20as%20privacy%20implies%20secrecy.
+
+https://www.ibm.com/docs/en/zos/2.3.0?topic=pdk-using-rsa-public-keys-protect-keys-sent-between-systems
+
+https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/create-identical-symmetric-keys-on-two-servers?view=sql-server-ver16
+
+https://www.youtube.com/watch?v=ERp8420ucGs
+
+https://www.youtube.com/watch?v=10BX3zOr7wk
+
+https://en.wikipedia.org/wiki/Plaintext
+
+https://en.wikipedia.org/wiki/Keystream
+
+https://en.wikipedia.org/wiki/Ciphertext
+
+https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange
+
+https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
+
+https://en.wikipedia.org/wiki/Block_cipher
 
 ### Overcome challenges
 Deciding on which cipher to use and in which order to add this for encrypting the key.
