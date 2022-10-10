@@ -1,7 +1,10 @@
 # Asymmetric encryption
 What does Asymmetric encryption mean and what does it do?
+
 ## Key terminology
 Asymmetric encryption= Is a way to ensure that only the receiver can read the message. By encrypting the public key, the private key would be used for decrypting and we all know private means only one person has that key. 
+
+RSA= Rivest-Shamir-Adleman is a cryptographic algorithm uses a private and public key that makes it asymmetric.
 
 ## Exercise
 - Generate a key pair.
@@ -11,8 +14,22 @@ You are not allowed to use any private messages or other communication channels 
 ### Sources
 https://www.techtarget.com/searchsecurity/definition/asymmetric-cryptography#:~:text=Asymmetric%20encryption%20uses%20a%20mathematically,key%20is%20used%20for%20decryption.
 
+https://www.practicalnetworking.net/series/cryptography/using-asymmetric-keys/
+
+https://security.stackexchange.com/questions/101560/how-to-securely-send-private-keys#:~:text=The%20proper%20way%20to%20do,Private%20Key%20and%20send%20it.
+
+https://stackoverflow.com/questions/13476355/how-does-rsa-distribute-keys-to-the-sender-and-receiver
+
+https://simple.wikipedia.org/wiki/RSA_algorithm#:~:text=RSA%20(Rivest%E2%80%93Shamir%E2%80%93Adleman,can%20be%20given%20to%20anyone.
+
 ### Overcome challenges
 [Give a short description of the challeges you encountered, and how you solved them.]
 
 ### Results
-[Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+Asymmetric is more secure as the chance that the data could be intercepted is less present. Here Daphne shared her Public Key with me to encrypt my message. She then decrypted the message I send through slack with her Private Key.
+
+![alt text]()
+
+![alt text]()
+
+![alt text]()

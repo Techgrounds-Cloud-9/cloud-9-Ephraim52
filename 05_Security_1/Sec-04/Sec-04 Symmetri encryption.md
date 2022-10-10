@@ -65,6 +65,8 @@ https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
 
 https://en.wikipedia.org/wiki/Block_cipher
 
+https://www.techrepublic.com/article/solving-the-key-exchange-problem/
+
 ### Overcome challenges
 Deciding on which cipher to use and in which order to add this for encrypting the key.
 
