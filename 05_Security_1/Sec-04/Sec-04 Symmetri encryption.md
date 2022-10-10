@@ -90,3 +90,7 @@ For the last part of this exercise I transferred my excel sheet into an encrypte
 After doing the Asymmetric exercise we used the same public key to encrypt and decrypt. We send a message in Caesar's cipher with a shift of 10 meaning that if I wrote A it would be K. We used the Caesar's cipher website to decrypt the cipher that was in the encrypted message.
 
 This was the message in Caesar's cipher XUBBE WYJKF, which when decrypted using the right cipher and key reads Hello Gitup.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/974184d98d5628457b24a54c7a7cba6eed7c3d67/00_includes/week%203/assignment%202/SEC04_screenshot_caesar_keygen.png)
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/974184d98d5628457b24a54c7a7cba6eed7c3d67/00_includes/week%203/assignment%202/SEC04_screenshot_caesar.png)
