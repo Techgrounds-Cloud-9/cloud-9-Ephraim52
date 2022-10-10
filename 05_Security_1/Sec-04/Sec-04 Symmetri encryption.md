@@ -67,6 +67,8 @@ https://en.wikipedia.org/wiki/Block_cipher
 
 https://www.techrepublic.com/article/solving-the-key-exchange-problem/
 
+https://www.dcode.fr/caesar-cipher
+
 ### Overcome challenges
 Deciding on which cipher to use and in which order to add this for encrypting the key.
 
@@ -84,3 +86,7 @@ Two digital ciphers still being used today:
 TLS and SSL, both share similarities.
 
 For the last part of this exercise I transferred my excel sheet into an encrypted .zip file. The password being encrypted with a cipher and a slight hint in the .zip file name.
+
+After doing the Asymmetric exercise we used the same public key to encrypt and decrypt. We send a message in Caesar's cipher with a shift of 10 meaning that if I wrote A it would be K. We used the Caesar's cipher website to decrypt the cipher that was in the encrypted message.
+
+This was the message in Caesar's cipher XUBBE WYJKF, which when decrypted using the right cipher and key reads Hello Gitup.
