@@ -34,18 +34,29 @@ The certificates are easier to find through commands in a terminal than looking 
 
 For websites certificates they are very clear in google for a website you can see a good overview on what version the certificate is and all other properties that belong to it.
 
-![alt text]()
+Creating a key in the VM.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a757a2624599136417d9174c95afee8ce820725a/00_includes/week%203/assignment%204/Sec-06_VM_certificate.png)
 
-![alt text]()
+Content of the key in the VM.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a757a2624599136417d9174c95afee8ce820725a/00_includes/week%203/assignment%204/Sec-06_VM_certificate_text.png)
 
-![alt text]()
+Certificate from one of the websites where I found information about this subject.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a757a2624599136417d9174c95afee8ce820725a/00_includes/week%203/assignment%204/Sec-06_www_certificate.png)
 
-![alt text]()
+Certificate from YouTube.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a757a2624599136417d9174c95afee8ce820725a/00_includes/week%203/assignment%204/Sec-06_YT_certificate.png)
 
-![alt text]()
+The path in the VM where I could find the certificates.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a757a2624599136417d9174c95afee8ce820725a/00_includes/week%203/assignment%204/Sec-06_path_certs.png)
 
-![alt text]()
+A few certificates from the VM.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a757a2624599136417d9174c95afee8ce820725a/00_includes/week%203/assignment%204/Sec-06_trusted_certifcates.png)
 
-![alt text]()
+Another way to find certificates in your VM.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a757a2624599136417d9174c95afee8ce820725a/00_includes/week%203/assignment%204/Sec-06_certificates_subjects.png)
 
-![alt text]()
+How to find certificates in your OS here I used a command in powershell that gave me a management terminal.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a757a2624599136417d9174c95afee8ce820725a/00_includes/week%203/assignment%204/Sec-06_windows_certs.png)
+
+This is how I found a certificate using the GUI of windows.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a757a2624599136417d9174c95afee8ce820725a/00_includes/week%203/assignment%204/Sec-06_windows_GUI_certificate.png)
