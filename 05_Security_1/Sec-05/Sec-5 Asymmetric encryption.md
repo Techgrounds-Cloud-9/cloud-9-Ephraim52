@@ -26,7 +26,7 @@ https://simple.wikipedia.org/wiki/RSA_algorithm#:~:text=RSA%20(Rivest%E2%80%93Sh
 [Give a short description of the challeges you encountered, and how you solved them.]
 
 ### Results
-Asymmetric is more secure as the chance that the data could be intercepted is less present. Here Daphne shared her Public Key with me to encrypt my message. She then decrypted the message I send through slack with her Private Key.
+Asymmetric is more secure as the chance that the data could be intercepted is less present. Here Daphne shared her Public Key with me so I could encrypt my message. She then decrypted the message I send through slack with her Private Key.
 
 ![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/8607f9fb899467257eebc99c715079b76c80fdbe/00_includes/week%203/assignment%203/Sec-05_slack_PK.png)
 
