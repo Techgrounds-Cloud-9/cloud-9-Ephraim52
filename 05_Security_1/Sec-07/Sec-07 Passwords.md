@@ -23,6 +23,8 @@ https://delinea.com/blog/how-do-passwords-work#:~:text=Hashing%20turns%20your%20
 
 https://www.darkreading.com/risk/safely-storing-user-passwords-hashing-vs-encrypting
 
+https://www.geeksforgeeks.org/understanding-rainbow-table-attack/
+
 https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/
 
 https://www.techtarget.com/searchsecurity/definition/salt#:~:text=What%20is%20password%20salting%3F,stealing%20them%20from%20the%20database.
@@ -41,20 +43,20 @@ Rainbow table is a database that has a directory filled with plaintext passwords
 
 Used Crackstation link to crack both MD5 hashes
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/734af4778e5da6e3f3129433c6a29e46f0ba0c1b/00_includes/week%203/assignment%205/Sec-07_md5password_decrypted.png)
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/734af4778e5da6e3f3129433c6a29e46f0ba0c1b/00_includes/week%203/assignment%205/Sec-07_md5password_decryption_failed.png)
 
 New user made in the VM
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/734af4778e5da6e3f3129433c6a29e46f0ba0c1b/00_includes/week%203/assignment%205/Sec-07_newuser_passwd.png)
 
 Password hash in the VM
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/734af4778e5da6e3f3129433c6a29e46f0ba0c1b/00_includes/week%203/assignment%205/Sec-07_passwd_hash.png)
 
 The result in the crackstation website
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/734af4778e5da6e3f3129433c6a29e46f0ba0c1b/00_includes/week%203/assignment%205/Sec-07_unrecognized_hash.png)
 
 The hashes of both our passwords are different because they are salted this adds an extra string of characters to the hash as it combines the two of them into the hash string. Which can't be cracked with a Rainbow table because it only uses Hashing excluding the Salt.
