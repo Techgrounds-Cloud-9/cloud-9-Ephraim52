@@ -35,6 +35,10 @@ https://securityboulevard.com/2019/11/5-tips-for-responding-to-cyber-attacks/
 
 https://dynamixsolutions.com/types-disaster-recovery-plans/
 
+https://bleuwire.com/strategies-cybersecurity-risk-mitigation/
+
+https://blogs.tcsusa.com/4-incident-response-plan-strategies-for-your-business
+
 ### Overcome challenges
 None encountered.
 
