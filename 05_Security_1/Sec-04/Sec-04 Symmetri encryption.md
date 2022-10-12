@@ -87,7 +87,7 @@ TLS and SSL, both share similarities.
 
 For the last part of this exercise I transferred my excel sheet into an encrypted .zip file. The password being encrypted with a cipher and a slight hint in the .zip file name.
 
-After doing the Asymmetric exercise we used the same public key to encrypt and decrypt. We send a message in Caesar's cipher with a shift of 10 meaning that if I wrote A it would be K. We used the Caesar's cipher website to decrypt the cipher that was in the encrypted message.
+After doing the Asymmetric exercise we used the same public key to encrypt and decrypt. We send a message in Caesar's cipher with a shift of 10 meaning that if I wrote A it would be K. We used the Caesar's cipher website to decrypt the cipher that was in the encrypted message. To send the key we used the private key to encrypt it.
 
 This was the message in Caesar's cipher XUBBE WYJKF, which when decrypted using the right cipher and key reads Hello Gitup.
 
