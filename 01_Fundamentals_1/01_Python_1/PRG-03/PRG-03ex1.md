@@ -30,6 +30,10 @@ How to make the integer and string add up together.
 ### Results
 After some struggle on figuring out how to get x to float I worked it out as followed.
 
-![alt text]()
+This is an image with the data types.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/3feb209d518de3a1380ad6f4356292bea62b072f/00_includes/week%204/assignment%203/PRG-03_exercise1_data_types.png)
+
+Here I added the comments as well as solving the floating issue.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/3feb209d518de3a1380ad6f4356292bea62b072f/00_includes/week%204/assignment%203/PRG-03_exercise2_printX.png)
