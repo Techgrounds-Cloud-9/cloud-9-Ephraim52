@@ -24,8 +24,8 @@ Changing the range as I got confused about the variable 'i' which was 0. Without
 ### Results
 The value of 'i' is 0 +1 untill its becoming 9 it doesn't count to 10 just 0 to 9.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/2e5e8c186f8779c840b1e1a9b86167555df81c3a/00_includes/week%204/assignment%204/PRG-04_exercise2_value.png)
 
 Variable x added and changed the range to roud it up to the 10th. So it would iterate for 50 times.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/2e5e8c186f8779c840b1e1a9b86167555df81c3a/00_includes/week%204/assignment%204/PRG-04_exercise2_p2.png)
