@@ -8,7 +8,7 @@ String= Technically an array of characters. Strings are denoted using “ ” do
 
 int= An integer is a whole number. Ints can be both positive and negative.
 
-float= A floating-point number is a decimal number.
+float= A floating-point number is a decimal number. Also for other types it can be usefull to add this while writing the code so you don't have to look up your mistakes.
 
 ## Exercise
 - Create a new script.
