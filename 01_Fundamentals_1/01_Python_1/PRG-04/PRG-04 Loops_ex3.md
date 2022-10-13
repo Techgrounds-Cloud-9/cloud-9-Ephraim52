@@ -18,4 +18,4 @@ None for this part of the assignment.
 ### Results
 For loop with names individually sorted.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/28982bf7fe02fa1db052587c76e13b60695f9cc0/00_includes/week%204/assignment%204/PRG-04_exercise3.png)
