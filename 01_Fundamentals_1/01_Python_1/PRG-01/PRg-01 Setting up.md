@@ -21,4 +21,4 @@ None
 ### Results
 I simply typed the code in a .py file in Visual studio code.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/026e368f9e03e8239f1ffb8210aff17cd1342dbc/00_includes/week%204/assignment%201/PRG-01_python.png)
