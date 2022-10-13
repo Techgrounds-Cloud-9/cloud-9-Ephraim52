@@ -12,19 +12,19 @@ d = "18.5"
 
 #the combination of int and float
 import decimal
-x = b + d
+x = b + float(d)
 
 #prints variable A
-print(type(a))
+print (type(a))
 
 #prints variable B
-print(type(b))
+print (type(b))
 
 #prints variable C
-print(type(c))
+print (type(c))
 
 #prints variable D
-print(type(d))
+print (type(d))
 
 #prints variable X
-print(float(x))
+print (x)

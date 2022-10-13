@@ -28,4 +28,8 @@ https://www.youtube.com/watch?v=VYecxRO9oaI
 How to make the integer and string add up together.
 
 ### Results
-[Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+After some struggle on figuring out how to get x to float I worked it out as followed.
+
+![alt text]()
+
+![alt text]()
