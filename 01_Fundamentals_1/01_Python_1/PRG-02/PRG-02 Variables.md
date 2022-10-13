@@ -20,4 +20,4 @@ None yet.
 ### Results
 I made the variables and added them up 2 + 5 = lucky number 7!
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/0ef949454077957942bdfcc140c2f7fb4f13be40/00_includes/week%204/assignment%202/PRG-02_exercise1.png)
