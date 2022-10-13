@@ -12,8 +12,12 @@ Nothing encountered for this part of the assignment
 ### Sources
 https://www.w3schools.com/python/python_variables.asp
 
+https://stackoverflow.com/questions/49335427/how-to-print-hello-your-name-in-output-screen-of-python
+
 ### Overcome challenges
-None
+Got confused between quotation characters its why it took me a bit longer. Figured it out by looking into these characters a bit more "" and ''.
 
 ### Results
-[Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+This is the actual working result.
+
+![alt text]()
