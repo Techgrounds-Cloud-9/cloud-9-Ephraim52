@@ -19,8 +19,8 @@ Watching NetworkChuck explaining that I didn't need multiple variables which I u
 ### Results
 Wrong code but still worked!
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/bb34c384b655b12091b38bac85a86284b2b7429d/00_includes/week%204/assignment%205/PRG-05_exercisse1_true.png)
 
 True and false response from the script.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/bb34c384b655b12091b38bac85a86284b2b7429d/00_includes/week%204/assignment%205/PRG-05_exercise_p1_true_or_false.png)
