@@ -25,4 +25,4 @@ None on this part luckily.
 ### Results
 I also made sure it showed the class as it was explained in the video the output will always be a string, it can't add up different classes.
 
-![alt text]()
+![alt text]https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/dbffb6e2bc6140c4625a92d01d60ccfe067c6ae6/00_includes/week%204/assignment%203/PRG-03_exercise2_types.png()
