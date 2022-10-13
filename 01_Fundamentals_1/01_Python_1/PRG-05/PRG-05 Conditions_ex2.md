@@ -15,6 +15,9 @@ https://www.w3schools.com/python/python_conditions.asp
 https://www.youtube.com/watch?v=DZwmZ8Usvnk
 
 ### Overcome challenges
-
+No challenges found.
 
 ### Results
+This is the image where the guessing game works.
+
+![alt text]()
