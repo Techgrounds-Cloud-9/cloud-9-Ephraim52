@@ -20,4 +20,4 @@ Got confused between quotation characters its why it took me a bit longer. Figur
 ### Results
 This is the actual working result.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/08ea0405f83bcab2f3e32ee13ffe4047ee6ee220/00_includes/week%204/assignment%202/PRG-02_exercise2.png)
