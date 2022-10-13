@@ -24,4 +24,4 @@ None for this one.
 ### Results
 Here I made an executed the new script where I made a while loop go until it was equal to 10.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/65c70ce9d115ff12695a40756566b5af61325f19/00_includes/week%204/assignment%204/PRG-04_exercise1.png)
