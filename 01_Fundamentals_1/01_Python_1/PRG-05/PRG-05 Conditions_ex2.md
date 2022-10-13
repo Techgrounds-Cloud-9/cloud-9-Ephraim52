@@ -20,4 +20,4 @@ No challenges found.
 ### Results
 This is the image where the guessing game works.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/3d4b33e34940aeddcf9b698379328296b3384842/00_includes/week%204/assignment%205/PRG-05_exercise_p2.png)
