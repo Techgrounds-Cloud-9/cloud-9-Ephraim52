@@ -16,6 +16,6 @@ https://www.w3schools.com/python/python_for_loops.asp
 No challenges in this part
 
 ### Results
-In the script you see the names listed perfectly one below the other.
+In the script you see the numbers in the loop being added to eachother up to the last one.
 
 ![alt text]()
