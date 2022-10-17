@@ -2,7 +2,7 @@
 How to make, write custom functions or import functions.
 
 ## Key terminology
-[Write a list of key terminology with a short description. To prevent duplication you can reference to previous excercises.]
+For terminology please look at exercise 5 where the input functions has been discussed for further explanation about this topic.
 
 ## Exercise
 - Create a new script.
@@ -20,4 +20,4 @@ https://www.cs.swarthmore.edu/~adanner/cs21/f09/randomlib.php
 ### Results
 Here you see that I generated 5 random numbers using the random package:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/6f801f00856eeff40dada8ba6bb9b5762a57a4e9/00_includes/week%204/assignment%206/PRG-06_exercise1.png)
