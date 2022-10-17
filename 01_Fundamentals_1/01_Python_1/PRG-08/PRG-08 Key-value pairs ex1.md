@@ -18,4 +18,4 @@ Checking which adjustment for the "for" loop would display all the items. After 
 ### Results
 This is the list with keys and values from the dictionary:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/ecc098d674062a13a7cdaecd9eba29c7ed902039/00_includes/week%204/assignment%208/PRG-08_exercise8p1.png)
