@@ -2,7 +2,7 @@
 How to make lists with multiple values and how index works.
 
 ## Key terminology
-[Write a list of key terminology with a short description. To prevent duplication you can reference to previous excercises.]
+Please look at PRG-04 Loops which contains the relevant terminology for this exercise.
 
 ## Exercise
 - Create a new script.
