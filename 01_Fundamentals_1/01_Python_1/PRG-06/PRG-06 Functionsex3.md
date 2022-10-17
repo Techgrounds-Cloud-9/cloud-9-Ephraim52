@@ -24,4 +24,4 @@ Figuring out how to calculate the uneven number "255" as a decimal number. So I 
 ### Results
 The avg function with result.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/92a904fcc98f851bb334789270c0adc917b38a46/00_includes/week%204/assignment%206/PRG-06_exercise3.png)
