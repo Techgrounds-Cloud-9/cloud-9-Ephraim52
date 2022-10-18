@@ -26,10 +26,10 @@ I had to find a way to put the dictionary in as it looked simular to how HTML an
 ### Results
 This is the python code where the csv file is imported to be used as a data base for saving the input information.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b90802d38cb109bf61677fc18bb2e690957de629/00_includes/week%204/assignment%208/PRG-08_exercise8p2_py_code.png)
 
 Csv file with the input from the terminal.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b90802d38cb109bf61677fc18bb2e690957de629/00_includes/week%204/assignment%208/PRG-08_exercise8p2_csv.png)
 
 You need to import this file into the python file, import csv, then write the variables along with the user input question. You connect the variable of the user input with the header list in the dictionary which I gave the variable 'row'. I opened the csv file to append the user input, by giving it the writers commands to write the key-value pairs into the file and save it by closing. I used "with" you can also do it seperately by using "open" "closed", the "with" function does both so I didn't need to close it seperately. 
