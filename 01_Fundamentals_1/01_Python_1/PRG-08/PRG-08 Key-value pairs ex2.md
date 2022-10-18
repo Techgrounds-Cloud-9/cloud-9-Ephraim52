@@ -16,6 +16,10 @@ https://www.w3schools.com/python/python_dictionaries.asp
 
 https://www.quora.com/How-can-I-make-the-user-input-key-and-value-dictionary-in-Python-e-g-classe_list-input-name-score-wrong-syntax
 
+https://www.youtube.com/watch?v=q5uM4VKywbA
+
+https://www.pythontutorial.net/python-basics/python-write-csv-file/
+
 ### Overcome challenges
 Checking which adjustment for the "for" loop would display all the items. After some reading on the w3schools website I found a part that explained how you could combine the loops for the different items in the dictionary.
 
