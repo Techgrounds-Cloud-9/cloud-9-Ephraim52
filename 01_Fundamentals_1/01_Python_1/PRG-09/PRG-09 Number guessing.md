@@ -6,7 +6,23 @@ Create one of the three following games:
 - Tic-Tac-Toe
 
 ## Key terminology
+import= 
 
+while loop= 
+
+variable= 
+
+value= 
+
+input= 
+
+True & False= 
+
+Integer= 
+
+String= 
+
+If & else= 
 
 ## Exercise
 - Generate a random number between 1 and 100 (or any other range).
