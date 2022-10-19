@@ -22,6 +22,10 @@ while guess != secret:
     guess = input("Please guess the random number between 1 and " + str(num) + ": ")
     if guess.isdigit():
         guess = int(guess)
+    if guess < secret:
+        print("You need to guess higher!")
+    if guess > secret:
+        print("You need to guess lower!")
 
     if guess == secret:
         print("You guessed right!")
