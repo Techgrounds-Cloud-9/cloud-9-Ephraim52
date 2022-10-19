@@ -50,8 +50,8 @@ The number guessing game with tips added:
 
 The coding.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d398448fd0452439f3bdaa516fb34a9b3eebfc15/00_includes/week%204/assignment%209/PRG-09_exercise9p1_coding.png)
 
 The terminal with output.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/d398448fd0452439f3bdaa516fb34a9b3eebfc15/00_includes/week%204/assignment%209/PRG-09_exercise9p1_output.png)
