@@ -11,7 +11,7 @@ The output should be:
 for i in range(10):
 	if i < 5:
 		print(i)
-	elif i < 8:
-		break
-	else:
+	elif i > 8:
 		print(i)
+	else:
+		break
