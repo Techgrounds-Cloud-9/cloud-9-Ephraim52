@@ -1,5 +1,5 @@
 # Elastic Compute Cloud (EC2)
-[Give a short summary of the subject matter.]
+Learning and creating an Instance with AWS EC2.
 
 ## Key terminology
 RDP= Remote Desktop Protocol is a secure network communications protocol to give users access to their physical work computers.
