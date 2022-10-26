@@ -54,4 +54,36 @@ Figuring out how to terminate with the protection enabled from the assignment. I
 ### Results
 Creating the EC2 instance HVM with the specified settings, rules and user data input.
 
-![alt text]()
+Here you see the settings for the Security Group with the rules added.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/890c997806320876ab284d690caea41a990f60f5/00_includes/week%205/AWS%206/AWS6_SG_allow.png)
+
+This is where I put the User Data input.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/890c997806320876ab284d690caea41a990f60f5/00_includes/week%205/AWS%206/AWS6_user_data_input.png)
+
+I finally confirmed the settings and launched the Instance.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/890c997806320876ab284d690caea41a990f60f5/00_includes/week%205/AWS%206/AWS6_succesfully_launched_instance.png)
+
+Here it shows that it passed the checks and that the Instance is running.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/890c997806320876ab284d690caea41a990f60f5/00_includes/week%205/AWS%206/AWS6_instance.png)
+
+I had some trouble logging in through Windows PowerShell I forgot to put the Path for the key that was needed for logging in through SSH.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/890c997806320876ab284d690caea41a990f60f5/00_includes/week%205/AWS%206/AWS6_logging_in.png)
+
+Then I executed the update after logging in.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/890c997806320876ab284d690caea41a990f60f5/00_includes/week%205/AWS%206/AWS6_logged_in_updating.png)
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/890c997806320876ab284d690caea41a990f60f5/00_includes/week%205/AWS%206/AWS6_instance_updated.png)
+
+I just wanted to see if it would display the html input from the User Data. So I went to the http with the IP address as you see here below.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/890c997806320876ab284d690caea41a990f60f5/00_includes/week%205/AWS%206/AWS6_http_output.png)
+
+Then sadly the fun was over and I had to terminate the instance and I also terminated the other resources connected to the instance.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/890c997806320876ab284d690caea41a990f60f5/00_includes/week%205/AWS%206/AWS6_instance_terminated.png)
