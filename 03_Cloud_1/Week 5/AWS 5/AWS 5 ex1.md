@@ -31,16 +31,16 @@ Elena confirmed she could view the cat image through this link: https://mycat-ju
 
 Bucket with the object which is a cat image.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/c1f99b0fef9525b2deca6186401970f7c857cbac/00_includes/week%205/AWS%205/AWS5_ex1_bucket+object.png)
 
 The policy in which you see the added AWS arn link to give access to the specific object for the public.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/c1f99b0fef9525b2deca6186401970f7c857cbac/00_includes/week%205/AWS%205/AWS_ex1_Bucket_policy.png)
 
 The page where you could use the link for the object/image, which I send to Elena.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/c1f99b0fef9525b2deca6186401970f7c857cbac/00_includes/week%205/AWS%205/AWS5_ex1_cat_link.png)
 
 The image displayed when the link is used.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/c1f99b0fef9525b2deca6186401970f7c857cbac/00_includes/week%205/AWS%205/AWS5_ex1_cat_image.png)
