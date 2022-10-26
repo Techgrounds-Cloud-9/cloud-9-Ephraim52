@@ -38,14 +38,14 @@ For the first exercise I realized now that you could simply make the objects pub
 ### Results
 Created the Bucket with the required Objects inside.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/f72808632a44befc48e9f36601692140aa115c80/00_includes/week%205/AWS%205/AWS5_ex2_bucket+objects.png)
 
 I had to set the Access Policy again as shown in exercise 1 of this assignments. Which I also refer to for viewing this part of the exercise.
 
 After uploading the Objects I created the Static Website Hosting, where the endpoint is created after setting the settings.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/f72808632a44befc48e9f36601692140aa115c80/00_includes/week%205/AWS%205/AWS5_ex2_Static_Host_endpoint.png)
 
 This is what my peer saw.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/f72808632a44befc48e9f36601692140aa115c80/00_includes/week%205/AWS%205/AWS5_ex2_website_URL.png)
