@@ -21,6 +21,8 @@ S3 Glacier - Is a service for long term data archive digital preservation. Can b
 ### Sources
 https://aws.amazon.com/s3/storage-classes/
 
+https://www.youtube.com/watch?v=4zrupVYqQFs
+
 My Word notes from the Cloud Practicioner Game at the Skill-Build website of Amazon.
 
 ### Overcome challenges
