@@ -40,50 +40,50 @@ I tried creating the volume from the Snapshot using the snapshot id, thats when 
 ### Results
 I created the EC2 instance.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_instance_running.png)
 
 This is the EBS Volume I made.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_EBS_volume.png)
 
 Attached the EBS Volume to the EC2 Instance.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_EBS_attached.png)
 
 Logged in through SSH connection in Windows PowerShell.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_SSH_connection.png)
 
 Before I mounted the EBS volume, I formatted the Virtual disk/EBS volume. Next was making a Path to mount the EBS volume to, as it cannot be the same as the root. Much like you have a hardware computer you cannot have two hard disks be master, there is always one master and the other hard disk is the slave drive.
 
 So here you see that I formatted and mounted the EBS volume.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_ebs_mounted.png)
 
 Here you see the Volume is attached/mounted to the path of /mnt/ebsvolume.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_txt_ds.png)
 
 The next step was creating a text file with some content.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_file_proof.png)
 
 This is the snapshot created from the volume.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_snapshot_created.png)
 
 Remove the text file from the EBS volume.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_RM_test.png)
 
 This is the volume created from the snapshot. The problem for creating this is described in the overcome challenges part.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_snapshot_volume.png)
 
 After that I detached the EBS volume and attached the volume created from the snapshot.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_snapshot_attached.png)
 
 Finally we arrived to the point where I had to search the test.txt file again and in this image you also see the content of the file.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/b827a8c23c3ff54b08180e97d8ec5023b15d83f8/00_includes/week%205/AWS%207/AWS7_found_text.png)
