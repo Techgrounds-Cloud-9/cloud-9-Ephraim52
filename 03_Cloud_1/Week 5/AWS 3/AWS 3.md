@@ -31,7 +31,7 @@ Reading.
 ### Results
 - Security
 
-Ensures the confidentiality, integrity, and availability of your data globally, you always control you data. This is monitored 24/7 as well as automatic encrytion at the physical layer when data is outbound.(Stop spending money on running and maintaining data centers)
+Ensures the confidentiality, integrity, and availability of your data globally, you always control your data. This is monitored 24/7 as well as automatic encrytion at the physical layer when data is outbound.(Stop spending money on running and maintaining data centers)
 
 - Availability
 

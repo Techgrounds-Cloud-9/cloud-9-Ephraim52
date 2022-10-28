@@ -4,7 +4,7 @@ What is EBS & Snapshots and how to use them.
 ## Key terminology
 For terminology please view AWS 4, 5 & 6!
 
-Snapshot= A copy from a volume or instance that you can use as a backup to restore a lost volume or instance.
+Snapshot= A copy from a volume or instance that you can use as a backup to restore/replace a lost volume or instance.
 
 ## Exercise 1
 - Navigate to the EC2 menu.

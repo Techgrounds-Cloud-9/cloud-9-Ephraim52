@@ -2,9 +2,9 @@
 Get to know the different services for the Cloud Practicioner Exam.
 
 ## Key terminology
-Amazon EC2= Elastic Compute Cloud that offers resizable compute capacity for virtually any workload. This contains multiple instances which you can use, processor, storage, networking, operating system in order to create the model that matches the needs of your workload to the best solution possible.
+Amazon EC2= Elastic Compute Cloud that offers resizable compute capacity for virtually any workload. This contains multiple instances which you can use, processor, storage, networking, operating system in order to create the model that matches the needs of your workload to the best solution possible. Making a Virtual Machine.
 
-AWS Lambda= This is a serverless event-driven compute service that allows you to run any code for any type of application or backend service without provisioning or managing servers.(SaaS)
+AWS Lambda= This is a serverless event-driven compute service that allows you to run any code for any type of application or backend service without provisioning or managing servers.(SaaS) Used for automating data transfer processes.
 
 Compute= Calculate which computers do faster than us humans or in other phrases it can be used to say something adds or doesn't add up. 
 
@@ -12,7 +12,7 @@ SaaS= Software-as-a-Service means that Software applications are being delivered
 
 AWS Elastic Beanstalk= A Service for scaling and deploying web applications and services. Beanstalk automatically handles the deployment from capacity provisioning, load balancing, and auto scaling to application health monitoring. 
 
-Amazon VPC= Virtual Private Cloud you can work with different resources in this Virtual Isolated Network. In the Isolated Network you can control resource placement, connectivity and security.
+Amazon VPC= Virtual Private Cloud you can work with different resources in this Virtual Isolated Network. In the Isolated Network you can control resource placement, connectivity and security. Control user access, not publically accessible.
 
 Amazon Route 53= Is a highly available and scalable Domain Name System (DNS) web service. Route 53 connects user requests to internet applications running on AWS or on-premises. Customize your DNS routing policies to reduce latency, improve application availability, and maintain compliance.
 
@@ -30,7 +30,7 @@ NoSQL= NoSQL databases store data in documents rather than relational tables. Ac
 
 Amazon CloudWatch= Collects and visualizes real-time logs, metrics, and event data in automated dashboards to streamline your infrastructure and application maintenance. Observe and monitor AWS resources and applications in the cloud and on premises
 
-Amazon CloudFormation= This  is a service that helps you model and set up your AWS resources so that you can spend less time managing those resources and more time focusing on your applications that run in AWS. (IaaS)
+Amazon CloudFormation= This is a service that helps you model and set up your AWS resources so that you can spend less time managing those resources and more time focusing on your applications that run in AWS. (IaaS)
 
 IaaS= Infrastructure-as-a-Service provides compute, memory, storage, networking and related software, such as operating systems and databases, as a cloud service to replace traditional on-premises data center infrastructure.
 

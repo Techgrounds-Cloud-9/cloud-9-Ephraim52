@@ -6,7 +6,7 @@ RDP= Remote Desktop Protocol is a secure network communications protocol to give
 
 AMI= Amazon Machine Image this provides information that is required to launch an instance. You can launch multiple instances from a single AMI, but you do have to specify each time which AMI you use for the instance you create.
 
-EBS= Elastic Block Store provides storage in blocks which is easily accessible and can be used for long-term storage. These blocks can be used as a device(s) for the instance(s) you create, it functions the same as how you would work with a hard drive.
+EBS= Elastic Block Store provides storage in blocks which is easily accessible and can be used for long-term storage. These blocks can be used as a device(s) for the instance(s) you create, it functions the same as how you would work with a hard drive disk.
 
 EC2= see the terminology of AWS 4.
 
