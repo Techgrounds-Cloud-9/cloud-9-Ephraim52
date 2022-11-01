@@ -44,8 +44,8 @@ Connecting to the Public IPv4 DNS name gives an error. Needed to put http:// inf
 ### Results
 Here I made the EC2 instance with the required settings and input for user data.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a21c63d034a951b12ad36db7976238f0c81911f7/00_includes/week%206/AWS%2010/AWS10_ex4_EC2_Instance.png)
 
 Then I connected and as mentioned has issues connecting due to having to specify http:// infront of the web address.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a21c63d034a951b12ad36db7976238f0c81911f7/00_includes/week%206/AWS%2010/AWS10_ex4_DNS_server.png)
