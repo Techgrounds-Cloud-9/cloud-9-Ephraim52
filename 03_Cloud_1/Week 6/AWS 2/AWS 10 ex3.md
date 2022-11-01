@@ -31,8 +31,8 @@ Here I made the security group called Web SG, with the following rules.
 
 Inbound:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/f4760dc8fbdf47f849afc4005cbf270ef02c5a6d/00_includes/week%206/AWS%2010/AWS10_ex3_inbound.png)
 
 Outbound:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/f4760dc8fbdf47f849afc4005cbf270ef02c5a6d/00_includes/week%206/AWS%2010/AWS10_ex3_outbound.png)
