@@ -38,21 +38,21 @@ https://docs.aws.amazon.com/vpc/latest/userguide/working-with-vpcs.html#Create-V
 https://medium.com/awesome-cloud/aws-vpc-route-table-overview-intro-getting-started-guide-5b5d65ec875f#:~:text=A%20route%20table%20contains%20a,to%20get%20to%20their%20destination.
 
 ### Overcome challenges
-[Give a short description of the challeges you encountered, and how you solved them.]
+No challenges experienced.
 
 ### Results
 First I made the elastic IP with default settings and just a name tag to recognize it faster.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a91a4b5423ca74deaf5da7294b372bf715ea3551/00_includes/week%206/AWS%2010/AWS10_ex1_elasticIP.png)
 
 Then I created the VPC using the VPC with more options, this way I could create the subnets too. By unfolding the other options I could change the CIDR notation of the subnets too.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a91a4b5423ca74deaf5da7294b372bf715ea3551/00_includes/week%206/AWS%2010/AWS10_ex1_LabVPC.png)
 
 The subnets:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a91a4b5423ca74deaf5da7294b372bf715ea3551/00_includes/week%206/AWS%2010/AWS10_ex1_subnets_az1.png)
 
 To match the infrastructure image of the VPC for the first part of the assignment I had to make a NAT gateway with the elastic IP as well, which you can see here:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/a91a4b5423ca74deaf5da7294b372bf715ea3551/00_includes/week%206/AWS%2010/AWS10_ex1_NAT_gateway.png)
