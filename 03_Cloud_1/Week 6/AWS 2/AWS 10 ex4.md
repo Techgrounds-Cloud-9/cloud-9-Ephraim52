@@ -4,7 +4,7 @@ How a VPC operates and its functions to learn how it works as well as what it is
 ## Key terminology
 VPC= Virtual private cloud is an isolated network/VM where you control access and isn't available to the public.
 
-## Exercise 3
+## Exercise 4
 - Launch an EC2 instance with the following requirements:
     - AMI: Amazon Linux 2
     - Type: t3.micro
