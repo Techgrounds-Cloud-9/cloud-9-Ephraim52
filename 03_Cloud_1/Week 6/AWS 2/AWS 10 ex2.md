@@ -37,8 +37,8 @@ Had to manually make the NAT gateway as I forgot to attached it during the creat
 ### Results
 I made the extra subnets for availability zone 2 as you can see in this screenshot:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/421eedc22421b151bc28bf26e8cb28360445d96e/00_includes/week%206/AWS%2010/AWS10_ex2_new_subnets_az2.png)
 
 Then I made checked the route tables, though there was none that had a NAT gateway attached to it. So I made the NAT gateway myself and assigned it to the main route.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/421eedc22421b151bc28bf26e8cb28360445d96e/00_includes/week%206/AWS%2010/AWS10_ex2_route_tables.png)
