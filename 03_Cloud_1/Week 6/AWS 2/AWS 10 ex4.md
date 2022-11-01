@@ -2,9 +2,7 @@
 How a VPC operates and its functions to learn how it works as well as what it is.
 
 ## Key terminology
-VPC= 
-
-CIDR= 
+VPC= Virtual private cloud is an isolated network/VM where you control access and isn't available to the public.
 
 ## Exercise 3
 - Launch an EC2 instance with the following requirements:
@@ -30,10 +28,24 @@ service httpd start
 - Connect to your server using the public IPv4 DNS name.
 
 ### Sources
-[List the sources you used for solving the exercise]
+https://www.youtube.com/watch?v=NN8JSRCBNB8
+
+https://docs.aws.amazon.com/vpc/latest/userguide/subnet-cidr-reservation.html
+
+https://docs.aws.amazon.com/directoryservice/latest/admin-guide/gsg_create_vpc.html
+
+https://docs.aws.amazon.com/vpc/latest/userguide/working-with-vpcs.html#Create-VPC
+
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html
 
 ### Overcome challenges
-[Give a short description of the challeges you encountered, and how you solved them.]
+Connecting to the Public IPv4 DNS name gives an error. Needed to put http:// infront of the web address.
 
 ### Results
-[Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+Here I made the EC2 instance with the required settings and input for user data.
+
+![alt text]()
+
+Then I connected and as mentioned has issues connecting due to having to specify http:// infront of the web address.
+
+![alt text]()

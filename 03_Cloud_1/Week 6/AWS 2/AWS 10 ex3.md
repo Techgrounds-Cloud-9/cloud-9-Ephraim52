@@ -2,9 +2,7 @@
 How a VPC operates and its functions to learn how it works as well as what it is.
 
 ## Key terminology
-VPC= 
-
-CIDR= 
+VPC= Virtual private cloud is an isolated network/VM where you control access and isn't available to the public.
 
 ## Exercise 3
 - Create a Security Group with the following requirements:
@@ -15,10 +13,26 @@ CIDR=
     - Outbound rule: Allow all traffic
 
 ### Sources
-[List the sources you used for solving the exercise]
+https://www.youtube.com/watch?v=NN8JSRCBNB8
+
+https://docs.aws.amazon.com/vpc/latest/userguide/subnet-cidr-reservation.html
+
+https://docs.aws.amazon.com/directoryservice/latest/admin-guide/gsg_create_vpc.html
+
+https://docs.aws.amazon.com/vpc/latest/userguide/working-with-vpcs.html#Create-VPC
+
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html
 
 ### Overcome challenges
-[Give a short description of the challeges you encountered, and how you solved them.]
+None making security groups is pretty clear as well as why you need them.
 
 ### Results
-[Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+Here I made the security group called Web SG, with the following rules.
+
+Inbound:
+
+![alt text]()
+
+Outbound:
+
+![alt text]()
