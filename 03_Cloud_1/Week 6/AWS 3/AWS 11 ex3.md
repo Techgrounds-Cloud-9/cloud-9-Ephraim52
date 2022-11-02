@@ -39,8 +39,8 @@ The other part was creating the load balancer where the steps would be the other
 ### Results
 Launch template instead of launch configuration:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/1e3314b9cdc1dd82ca6d16412bdfeed35e96b1e8/00_includes/week%206/AWS%2011/AWS11_ex3_launch.png)
 
 Scale group created:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/1e3314b9cdc1dd82ca6d16412bdfeed35e96b1e8/00_includes/week%206/AWS%2011/AWS11_ex3_scaling_group.png)
