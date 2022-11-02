@@ -37,4 +37,10 @@ Had to make a subnet as I think I delete the default subnet by mistake when dele
 The other part was creating the load balancer where the steps would be the other way around. First I had to make the Security group and Target Group, after that I could create the Load balancer. Otherwise it wouldn't seem to find the Security group for example.
 
 ### Results
+Launch template instead of launch configuration:
 
+![alt text]()
+
+Scale group created:
+
+![alt text]()

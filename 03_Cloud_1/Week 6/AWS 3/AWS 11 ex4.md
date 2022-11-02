@@ -12,11 +12,14 @@ Four types of ELBs:
 - Classic Load Balancer: this ELB is outdated and not recommended for use. AWS has (so far) never stopped supporting any services. The reason for this is that it can harm existing applications.
 - Gateway Load Balancer: this ELB acts as a gateway into your network, as well as a load balancer. It will first route traffic to a (3rd party) application that checks the traffic, like an IDS/IPS or Firewall. After the packet has been inspected, the GWLB acts like a NLB routing to your application. GWLB act on layers 3 and 4 of the OSI stack.
 
+Network interfaces= 
+
+Why Autoscaling creates new instances?
+
 ## Exercise 4
 - Verify that the EC2 instances are online and that they are part of the target group for the load balancer.
 - Access the server via the ELB by using the DNS name of the ELB.
 - Perform a load test on your server(s) using the website on your server to activate auto scaling. There might be a delay on the creation of new servers in your fleet, depending on the settings on your Auto Scaling Group.
-
 
 ### Sources
 https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html
@@ -28,5 +31,21 @@ Had to make a subnet as I think I delete the default subnet by mistake when dele
 
 The other part was creating the load balancer where the steps would be the other way around. First I had to make the Security group and Target Group, after that I could create the Load balancer. Otherwise it wouldn't seem to find the Security group for example.
 
-### Results
+- Not having the default resources was part of the issue.
 
+### Results
+Checking the instances if they are part of the target group.
+
+![alt text]()
+
+Accessing the DNS server webpage to later on test the load.
+
+![alt text]()
+
+Performing the load test I could notice the CPU load variates over time.
+
+![alt text]()
+
+Autoscaling group creates new instances when monitoring the load test. There is a few minutes delay in the creation of the update and instance, though in the end results are positive and everything works.
+
+![alt text]()

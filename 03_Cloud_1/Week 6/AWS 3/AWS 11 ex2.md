@@ -41,3 +41,11 @@ The other part was creating the load balancer where the steps would be the other
 Here I made the load balancer and connected the target group.
 
 ![alt text]()
+
+Target group:
+
+![alt text]()
+
+As well as the security group:
+
+![alt text]
