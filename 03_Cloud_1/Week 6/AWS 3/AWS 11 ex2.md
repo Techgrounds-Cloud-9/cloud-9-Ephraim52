@@ -40,12 +40,12 @@ The other part was creating the load balancer where the steps would be the other
 ### Results
 Here I made the load balancer and connected the target group.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/8598ddce2b5c013d7cd520e363827e78d9e18b43/00_includes/week%206/AWS%2011/AWS11_ex2_load_balancer.png)
 
 Target group:
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/8598ddce2b5c013d7cd520e363827e78d9e18b43/00_includes/week%206/AWS%2011/AWS11_ex2_target_group.png)
 
 As well as the security group:
 
-![alt text]
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/8598ddce2b5c013d7cd520e363827e78d9e18b43/00_includes/week%206/AWS%2011/AWS11_ex2_SG.png)
