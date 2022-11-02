@@ -36,16 +36,16 @@ The other part was creating the load balancer where the steps would be the other
 ### Results
 Checking the instances if they are part of the target group.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/97e451f74572cd40cecb3ce5ec5389887ba67f93/00_includes/week%206/AWS%2011/AWS11_ex4_target_group.png)
 
 Accessing the DNS server webpage to later on test the load.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/97e451f74572cd40cecb3ce5ec5389887ba67f93/00_includes/week%206/AWS%2011/AWS11_ex4_DNS_server.png)
 
 Performing the load test I could notice the CPU load variates over time.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/97e451f74572cd40cecb3ce5ec5389887ba67f93/00_includes/week%206/AWS%2011/AWS11_ex4_load_test.png)
 
 Autoscaling group creates new instances when monitoring the load test. There is a few minutes delay in the creation of the update and instance, though in the end results are positive and everything works.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/97e451f74572cd40cecb3ce5ec5389887ba67f93/00_includes/week%206/AWS%2011/AWS11_ex4_ASG_activity.png)
