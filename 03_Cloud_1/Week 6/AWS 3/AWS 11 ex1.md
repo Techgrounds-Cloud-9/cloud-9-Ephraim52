@@ -40,8 +40,8 @@ Had to make a subnet as I think I delete the default subnet by mistake when dele
 ### Results
 Here I made the instance with the settings and input.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/9d9b0a949eee346e3da0dbaef248201d65290f4d/00_includes/week%206/AWS%2011/AWS11_ex1_instance.png)
 
 Here I created an image from the instance I made.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/9d9b0a949eee346e3da0dbaef248201d65290f4d/00_includes/week%206/AWS%2011/AWS11_ex1_AMI.png)
