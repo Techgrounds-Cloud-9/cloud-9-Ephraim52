@@ -173,7 +173,7 @@ https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerD
 Creating a step by step plan for the execution of a demonstration for the pratical part of the assignment. The main issue seems to me where to apply the RDS to.
 
 ### Results
-I found the EC2 tab in Services -> Compute -> EC2 and create the two instances that you see here.
+I found the EC2 tab in Services, select Compute menu, select EC2 and create the two instances that you see here.
 
 ![alt text]()
 
