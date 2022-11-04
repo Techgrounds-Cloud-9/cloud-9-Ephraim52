@@ -3,7 +3,9 @@ Independent assignment to learn about services related to the Database.
 
 ## Key terminology
 ### Elastic Beanstalk= 
-A service that deploys, manages and scales web apps and services for you. Using manage containers to support programming language environments on familar servers.(This SaaS is free of charge only the connected resources have costs.) Elastic beanstalk leverages familar AWS services:
+A service that deploys, manages and scales web apps and services for you. Using manage containers to support programming language environments on familar servers.(This PaaS is free of charge; only the connected resources have costs.) 
+
+Elastic beanstalk leverages familar AWS services:
 
 - EC2
 - S3
