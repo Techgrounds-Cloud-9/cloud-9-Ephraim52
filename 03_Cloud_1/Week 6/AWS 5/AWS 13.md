@@ -178,11 +178,7 @@ I found the EC2 tab in Services, select Compute menu, select EC2 and create the 
 
 The root user
 
-![alt text]()
-
-Other user
-
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/72487bb915c107ba9b0a56a124dac13bba392e15/00_includes/week%206/AWS%2013/AWS13_instances.png)
 
 Going to Services you see the menu of all services offered, select Storage and select EFS. Now I created an EFS which I attached to both EC2 instances. 
 
@@ -193,24 +189,38 @@ Going to Services you see the menu of all services offered, select Storage and s
     - mkdir efs
     - sudo mount etc
 
-![alt text]()
+EFS created
 
-These are the two instances that EFS is attached to.
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/72487bb915c107ba9b0a56a124dac13bba392e15/00_includes/week%206/AWS%2013/AWS13_EFS_created.png)
 
-![alt text]()
+Root user
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/72487bb915c107ba9b0a56a124dac13bba392e15/00_includes/week%206/AWS%2013/AWS13_EFS_attached.png)
 
 Open the services menu again, select the Database menu, and select the RDS service. Now I made the RDS according to the requirements.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/72487bb915c107ba9b0a56a124dac13bba392e15/00_includes/week%206/AWS%2013/AWS13_RDS_created.png)
 
 Creating the text file in the VM of the EC2 instance and showing that it is available on the second instance as well.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/72487bb915c107ba9b0a56a124dac13bba392e15/00_includes/week%206/AWS%2013/AWS13_text_created.png)
 
 Should be able to read the file on the other instance as a user.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/72487bb915c107ba9b0a56a124dac13bba392e15/00_includes/week%206/AWS%2013/AWS13_text_read.png)
+
+EFS Input/Output
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/72487bb915c107ba9b0a56a124dac13bba392e15/00_includes/week%206/AWS%2013/AWS13_EFS_I&O.png)
 
 After this part view in RDS databases the changes from the file in the monitoring tab.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/72487bb915c107ba9b0a56a124dac13bba392e15/00_includes/week%206/AWS%2013/AWS13_RDS_memory.png)
+
+Deleting the Root user text file
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/72487bb915c107ba9b0a56a124dac13bba392e15/00_includes/week%206/AWS%2013/AWS13_file_deleted_root.png)
+
+The file is also deleted for the other instance user
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/72487bb915c107ba9b0a56a124dac13bba392e15/00_includes/week%206/AWS%2013/AWS13_file_deleted_second_user.png)
