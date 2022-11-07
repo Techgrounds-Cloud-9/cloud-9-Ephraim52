@@ -108,6 +108,7 @@ Benefits of Aurora are:
 EFS, RDS and Aurora how to add these to the previous practical exercises (AWS 10 and 11) to make a fully functional database server with automated processess.
 
 - Create two EC2 instance
+- Add keys to both instances
 - Create an EFS
 - Attach the EFS to the EC2 instance created earlier
 - Attach the EFS to the second EC2 instance 
