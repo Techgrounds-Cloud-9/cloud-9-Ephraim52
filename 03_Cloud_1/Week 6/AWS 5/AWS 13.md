@@ -124,9 +124,7 @@ EFS, RDS and Aurora how to add these to the previous practical exercises (AWS 10
     - Public access select: Yes, you want to access your resources from the outside.
 
 - Create a file in the first EC2 instance
-- Check if the file is present in the second EC2 instance, is it writable? No?
-- Give write permission to the file in the first instance, for this exercise we just decided to check if the file was available for the other instance as well.
-- Check in the second instance if you have write permission to demonstrate the shared file system.
+- For this exercise just check if the file was available for the other instance as well.
 
 - After creation check the RDS Databases tab and go to connectivity & security
 - Check monitoring as well, now you should see the changes made in the graphs from when you worked with the file for the EC2 instance.
@@ -178,9 +176,22 @@ Creating a step by step plan for the execution of a demonstration for the pratic
 ### Results
 I found the EC2 tab in Services, select Compute menu, select EC2 and create the two instances that you see here.
 
+The root user
+
 ![alt text]()
 
-Going to Services you see the menu of all services offered, select Storage and select EFS. Now I created an EFS which I attached to both EC2 instances.
+Other user
+
+![alt text]()
+
+Going to Services you see the menu of all services offered, select Storage and select EFS. Now I created an EFS which I attached to both EC2 instances. 
+
+- To attach the EFS I had to install the EFS application in the console
+- Create a directory Path to mount the EFS unto 
+    - sudo su
+    - cd / to be in the root directory
+    - mkdir efs
+    - sudo mount etc
 
 ![alt text]()
 
@@ -196,7 +207,7 @@ Creating the text file in the VM of the EC2 instance and showing that it is avai
 
 ![alt text]()
 
-Giving permission to file so that the second instance can write in the file as well.
+Should be able to read the file on the other instance as a user.
 
 ![alt text]()
 
