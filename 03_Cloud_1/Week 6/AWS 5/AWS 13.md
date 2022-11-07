@@ -114,7 +114,7 @@ EFS, RDS and Aurora how to add these to the previous practical exercises (AWS 10
 - Attach the EFS to the second EC2 instance 
 
 - Create the RDS with the following requirements:
-    - For egine type select Aurora
+    - For engine type select Aurora
     - Settings name the Database cluster identifier
     - Credentials settings only provide a password to secure access
     - Instance configuration change to burstable classes
@@ -125,7 +125,7 @@ EFS, RDS and Aurora how to add these to the previous practical exercises (AWS 10
 
 - Create a file in the first EC2 instance
 - Check if the file is present in the second EC2 instance, is it writable? No?
-- Give write permission to the file in the first instance
+- Give write permission to the file in the first instance, for this exercise we just decided to check if the file was available for the other instance as well.
 - Check in the second instance if you have write permission to demonstrate the shared file system.
 
 - After creation check the RDS Databases tab and go to connectivity & security
