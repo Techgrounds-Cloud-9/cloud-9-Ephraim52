@@ -62,7 +62,7 @@ AWS Config service works with:
 - Amazon CloudWatch
 - Amazon S3
 
-Benefits of Trusted Advisor service are:
+Benefits of AWS Config service are:
 - Continually assess, monitor, and record resource configuration changes to simplify change management.
 - Audit and evaluate compliance of your resource configurations with your organization’s policies on a continual basis.
 - Simplify operational troubleshooting by correlating configuration changes to particular events in your account.
@@ -130,6 +130,15 @@ Benefits of DynamoDB are:
 
 ### AWS Lambda=
 AWS Lambda is a serverless computing technology that allows you to run code without provisioning or managing servers. AWS Lambda executes code only when needed and scales automatically. You pay only for the compute time you consume (you pay nothing when your code is not running). (SaaS)
+
+Works with different programming languages and platforms.
+- .NET
+- .NET Core
+- Go
+- Java
+- Node.js
+- Python
+- Ruby
 
 Services/resources that AWS Lambda uses:
 - Amazon S3
@@ -202,6 +211,19 @@ These are the services for this exercise:
 - AWS Lambda
 - SNS, SQS, Event Bridge
 
+- Set up an EC2 instance
+- Connect this with the default VPC
+- Setup CloudWatch
+- Create an connect the following services:
+    - SNS
+    - SQS
+    - Event Bridge
+    - Add Lambda to SNS, to program an action or alarm.
+- Create a DynamoDB
+- Attach the DynamoDB to the EC2 instance
+- Test the rule or alarm you set with SNS Lambda.
+- Check for any changes in CloudWatch and the other services.
+
 ### Sources
 https://www.youtube.com/watch?v=FnFvpIsBrog
 
@@ -258,7 +280,13 @@ https://aws.amazon.com/eventbridge/
 https://aws.amazon.com/nosql/
 
 ### Overcome challenges
-[Give a short description of the challeges you encountered, and how you solved them.]
+Reading and looking at some extra sources for certain services to have a clearer view. 
 
 ### Results
-[Describe the result of the exercise. An image can speak more than a thousand words, include one when this wisdom applies.]
+This is a list to summarize where you can find the services mentioned in the Exercise part:
+- For IAM go to Services, click on Security, identity & compliance, and click on IAM
+- For AWS CloudWatch go to Services, click on Management & Governance, and click on CloudWatch.
+- For DynamoDB go to Services, click on Database, and click on DynamoDB.
+- For AWS Lambda go to Services, click on Compute, and click on Lambda.
+- For SNS, SQS, EventBridge go to Services, click on Application Integration, and click on either SNS, SQS or EventBridge all three of these services can be found in this menu.
+
