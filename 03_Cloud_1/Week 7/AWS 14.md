@@ -174,12 +174,34 @@ Benefits of SQS are:
 Same as SNS.
 
 ### Event Bridge=
+Used to be named CloudWatch Events observes events and direct them if programmed to. Being a serverless event bus that receives, filters, transforms, route, and deliver events to connected service/resources. So they work more independently, so less work for you and more time to spend on other parts of your work.
+
+Works with any serice and resource.
+
+Benefits of EventBridge are:
+- Easy to build and helps deploy new features faster.
+- Ingest, filter, transform, and deliver events from connected applications—without writing custom code or managing and provisioning servers.
+- Connect AWS services, software-as-a-service (SaaS) applications, and custom applications as event producers to launch a variety of workflows.
+- Automatically scale based on the number of events ingested, and pay only for events published by your AWS or SaaS applications.
 
 ### SLA=
+Service Level Agreement The requirements the services of AWS need to meet which are standard for delivering a good functioning and reliable service.
 
 ### NoSQL=
+NoSQL is a database in which you can store files that are only documents, graphs, key-value, and wide-column. NoSQL is not a relational table in comparison to MySQL which is a relational table. Scale horizontally, easier to manage, performs better through simplicity, more functional.
 
 ## Exercise
+- Describe where you can find the following services
+- How you can use these services
+- Is it possible to connect these services with other services/resources?
+
+These are the services for this exercise:
+- IAM
+- AWS CloudWatch
+- DynamoDB
+- AWS Lambda
+- SNS, SQS, Event Bridge
+
 ### Sources
 https://www.youtube.com/watch?v=FnFvpIsBrog
 
@@ -225,7 +247,15 @@ https://docs.aws.amazon.com/sns/latest/dg/welcome.html
 
 https://digitalcloud.training/aws-application-integration/#amazon-simple-queue-service-amazon-sqs
 
+https://www.couchbase.com/resources/why-nosql#:~:text=NoSQL%20databases%20store%20data%20in,column%20databases%2C%20and%20graph%20databases.
 
+https://www.youtube.com/watch?v=MBODF1Vru2Y
+
+https://aws.amazon.com/legal/service-level-agreements/?aws-sla-cards.sort-by=item.additionalFields.serviceNameLower&aws-sla-cards.sort-order=asc&awsf.tech-category-filter=*all
+
+https://aws.amazon.com/eventbridge/
+
+https://aws.amazon.com/nosql/
 
 ### Overcome challenges
 [Give a short description of the challeges you encountered, and how you solved them.]
