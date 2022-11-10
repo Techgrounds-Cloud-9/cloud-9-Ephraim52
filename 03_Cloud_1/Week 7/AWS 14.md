@@ -290,3 +290,34 @@ This is a list to summarize where you can find the services mentioned in the Exe
 - For AWS Lambda go to Services, click on Compute, and click on Lambda.
 - For SNS, SQS, EventBridge go to Services, click on Application Integration, and click on either SNS, SQS or EventBridge all three of these services can be found in this menu.
 
+I created a Test user with the IAM service, setting different permissions for different services/resources.
+
+![alt text]()
+
+Made the DynamoDB with default settings just for checking what I can connect it with.
+
+![alt text]()
+
+Made an alarm notification with a SNS topic, to receive alerts when the capacity that is provisioned for the DynamoDB is greater than 8000.
+
+CloudWatch
+
+![alt text]()
+
+SNS Topic
+
+![alt text]()
+
+When I made the SQS I needed to make a function was well with Lambda which you can see in these screenshots.
+
+SQS
+
+![alt text]()
+
+Lambda function
+
+![alt text]()
+
+As last the EventBridge.
+
+![alt text]()
