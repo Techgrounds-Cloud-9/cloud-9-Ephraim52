@@ -292,32 +292,40 @@ This is a list to summarize where you can find the services mentioned in the Exe
 
 I created a Test user with the IAM service, setting different permissions for different services/resources.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/0b2b2e88fb940cc32011627dec3cce1cc261d47a/00_includes/week%207/AWS14_IAM_user_created.png)
 
 Made the DynamoDB with default settings just for checking what I can connect it with.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/0b2b2e88fb940cc32011627dec3cce1cc261d47a/00_includes/week%207/AWS14_DynamoDB_with_CloudWatch.png)
 
 Made an alarm notification with a SNS topic, to receive alerts when the capacity that is provisioned for the DynamoDB is greater than 8000.
 
 CloudWatch
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/0b2b2e88fb940cc32011627dec3cce1cc261d47a/00_includes/week%207/AWS14_SNS_created_in_CloudWatch.png)
 
 SNS Topic
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/0b2b2e88fb940cc32011627dec3cce1cc261d47a/00_includes/week%207/AWS14_SNS_Topic.png)
+
+Connecting SNS Topic with CloudWatch.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/0b2b2e88fb940cc32011627dec3cce1cc261d47a/00_includes/week%207/AWS14_CloudWatch_connected_SNS.png)
 
 When I made the SQS I needed to make a function was well with Lambda which you can see in these screenshots.
 
 SQS
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/0b2b2e88fb940cc32011627dec3cce1cc261d47a/00_includes/week%207/AWS14_SQS_created.png)
 
 Lambda function
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/0b2b2e88fb940cc32011627dec3cce1cc261d47a/00_includes/week%207/AWS14_Lambda_function.png)
+
+Lamba function connected with SQS.
+
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/0b2b2e88fb940cc32011627dec3cce1cc261d47a/00_includes/week%207/AWS14_Lambda_with_SQS.png)
 
 As last the EventBridge.
 
-![alt text]()
+![alt text](https://github.com/Techgrounds-Cloud-9/cloud-9-Ephraim52/blob/0b2b2e88fb940cc32011627dec3cce1cc261d47a/00_includes/week%207/AWS14_EventBridge.png)
