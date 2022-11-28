@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T13:40:51.501Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="Ek8hPMX-2ax6YWJoVqTl" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T13:41:03.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="xeEnCtLSw3YLe7tF2PkX" type="github">
   <diagram id="eRYBCGMtse4WiaW_oaDc" name="VPC Infrastructure">
     <mxGraphModel dx="1385" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
           <mxGeometry x="170" y="695" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bXT90gXO_5kY_MwGyz0f-44" value="Sec Group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="760" width="60" height="30" as="geometry" />
+          <mxGeometry x="10" y="735" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bXT90gXO_5kY_MwGyz0f-45" value="" style="shape=flexArrow;endArrow=classic;startArrow=none;html=1;rounded=0;" edge="1" parent="1" source="bXT90gXO_5kY_MwGyz0f-46">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
