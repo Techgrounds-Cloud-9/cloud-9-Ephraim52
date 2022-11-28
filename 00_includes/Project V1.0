@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T15:14:50.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="7rC-0oMUzKwG216V3d2H" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T15:16:13.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="58Hdy36evtChS3_2AZpo" type="github">
   <diagram id="eRYBCGMtse4WiaW_oaDc" name="VPC Infrastructure">
     <mxGraphModel dx="1385" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,6 +195,12 @@
         </mxCell>
         <mxCell id="bXT90gXO_5kY_MwGyz0f-67" value="Sec Group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-69" value="EC2 instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-72" value="EC2 instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="120" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
