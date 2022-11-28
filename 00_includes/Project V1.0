@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T09:29:49.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="cSHHpP9AJvYnDJ70Pkhb" type="github"><diagram id="C4k3wXIGH9NxmuxNxbQX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-28T10:26:21.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="dnQg-rZb8okPtmVdfW2W" type="github">
+  <diagram id="eRYBCGMtse4WiaW_oaDc" name="Pagina-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="710" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-5" value="Public Subnet AZ-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-6" value="Private Subnet AZ-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="120" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-9" value="Public Subnet AZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="220" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-10" value="Private Subnet AZ-2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-11" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-12" value="Int Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-13" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-14" value="NAT Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-15" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-16" value="Int Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="305" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-17" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-18" value="NAT Gateway" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-20" value="VPC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-21" value="ACL sec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bXT90gXO_5kY_MwGyz0f-22" value="Sec Group" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
