@@ -15,17 +15,18 @@
 Infrastructure
 - VPC - Region
 - Public & Private subnets - Availability Zones, the IP ranges are set for the subnets
-- NAT gateway - Attached to the Private Subnet for connection with the internet
 - Internet Gateway - Attached to the Public Subnet for connection with the internet
 - ACL's as firewall on subnet level
 - Security group as firewall on the instance level
-- Create a Function with Lambda to create snapshots daily and store/save for 7 days, AWS EC2 Backup
-- Two instances in 2 different availability zones to set up the admin/management servers individually
-- Add KMS - for encrypting and decrypting the VM's
-- EC2 instances attached to the VPC with potentially if extra space is needed EBS volumes too
-- S3 storage
+- Create plans to ensure that S3 creates Backups on a daily basis and that these are saved for 7 days
+- Two instances in 2 different availability zones to set up the admin server and webserver individually
+- AMI is needed to setup the EC2 instance as a launch template
+- Add KMS - for encrypting and decrypting the data
+- EC2 instances attached to the VPC to ensure it runs and has the right access
+- S3 storage for Bootstrap scripts to give it userdata when the instance is deployed. This will give shape to the instance when being looked at by the public
 
 IAM
 - assign roles to services
 - least privilege
 - rotate keys regularely - KMS
+- Use the SSH keys for encrypting data through KMS
