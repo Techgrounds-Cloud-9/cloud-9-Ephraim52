@@ -16,6 +16,7 @@ Infrastructure
 - VPC - Region
 - Public & Private subnets - Availability Zones, the IP ranges are set for the subnets
 - Internet Gateway - Attached to the Public Subnet for connection with the internet
+- VPC peering to connect both the servers to eachother, connection rules defined by ACL and SG
 - ACL's as firewall on subnet level
 - Security group as firewall on the instance level
 - Create plans to ensure that S3 creates Backups on a daily basis and that these are saved for 7 days
