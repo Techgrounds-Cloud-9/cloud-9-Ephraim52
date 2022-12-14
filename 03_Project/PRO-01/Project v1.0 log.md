@@ -1,0 +1,178 @@
+# Log
+
+## One Sentence summary of the day
+
+## Challenges
+
+## Solutions
+
+## Learnings
+
+# Log 28-11-2022
+
+## One Sentence summary of the day
+Studying the CDK and how it works
+
+## Challenges
+Figuring out how CDK works, after not finding a proper explanation. I looked at different services that matched this and in Cloud9 it seems you can create an environment.
+
+## Solutions
+Create plans and design infrastructure.
+
+## Learnings
+Time management as we are working with a deadline time management is vital to achieving the desired result by the end of the time we have. Setting up steps to create the Code as Infrastructure.
+
+# Log 30-11-2022
+
+## One Sentence summary of the day
+Studying the CDK and creating a vpc stack
+
+## Challenges
+Figuring out how to connect the VPC stack with the main app.py file, to synthesize it to get a template.
+
+## Solutions
+Read and watch a lot look at other constructs or templates.
+
+## Learnings
+Learned how to connect the vpc stack with the main app.py file and whether it needed to be seperate stacks or one whole stack of resources. The connection was corrected by specifying the variables of the files in sync with eachother.
+
+# Log 01-12-2022
+
+## One Sentence summary of the day
+Re-creating the vpc starting fresh, along with setting up the ACL's for the subnets.
+
+## Challenges
+Creating the ACL policies to grant access to specific resources.
+
+## Solutions
+Read and watch a lot look at other constructs or templates, to get a better understanding.
+
+## Learnings
+A policy is complicated and exists out of various variables that need to be assigned the values that set up the access rule.
+
+# Log 02-12-2022
+
+## One Sentence summary of the day
+Re-creating the vpc starting fresh, along with setting up the ACL's for the subnets.
+
+## Challenges
+Creating the ACL policies to grant access to specific resources.
+
+## Solutions
+Found the solution when going through the AWS API list looking for ACL entries, where it showed a small model of what it should look like.
+
+## Learnings
+How to create an ACL and the Entry rules that allow or deny access.
+
+# Log 05-12-2022
+
+## One Sentence summary of the day
+Looking into KMS to create keys and use them for encrypting data.
+
+## Challenges
+Finding information about KMS on how to put it into code.
+
+## Solutions
+Read and watch a lot look at other constructs or templates, to get a better understanding.
+
+## Learnings
+That it is possible if you create a client with boto3.
+
+# Log 06-12-2022
+
+## One Sentence summary of the day
+Working on making the KMS and the client needed to create the keys.
+
+## Challenges
+Creating KMS part and figuring out how to create a client without third parties being required.
+
+## Solutions
+Read and watch a lot look at other constructs or templates, to get a better understanding.
+
+## Learnings
+Its pretty hard to setup a KMS client as it requires different programming languages as well. 
+I am looking into other ways to make this work.
+
+# Log 07-12-2022
+
+## One Sentence summary of the day
+Realized I could also encrypt using the .pem file in which our key is stored and the public key that is generated at that moment as well.
+
+## Challenges
+How to set this up and how to add the .pem file with KMS in order to make sure its managed and used for encrypting.
+
+## Solutions
+Read and watch a lot look at other constructs or templates, to get a better understanding. Even discuss the possibilities.
+
+## Learnings
+That it is possible to configure it in this way, just need a better understanding of how to do this.
+
+# Log 08-12-2022
+
+## One sentence Summary of the day
+Did encryption in another way without creating KMS and just assigning encryption to the resources that needed it.
+
+## Challenges
+At that time I was reading into a way to just encrypt it by each seperate resource that needs it.
+
+## Solutions
+Figured out that if you hovered over a parameter you would see the explanation, but also in that note you can scroll down and its where I found some lines that explained how to encrypt for example the S3 Bucket.
+
+## Learnings
+Learned how to encrypt S3 bucket in particular and will apply this for the other resources that need it.
+
+# Log 09-12-2022
+
+## One sentence Summary of the day
+Figuring out how the userdata can be used for the instance to deploy a website with a visible webpage.
+
+## Challenges
+Making the userdata readable for the instance to use.
+
+## Solutions
+Trying various ways in writing permission to download, execute and give read permission to the instance.
+
+## Learnings
+I learned that I need to dive deeper into this to understand why the instance is not using the userdata.
+
+# Log 12-12-2022
+
+## One sentence Summary of the day
+Still wrestling with the userdata and attempted the various way to use it for the instance.
+
+## Challenges
+Its not working with the various commands and permissions.
+
+## Solutions
+Need to delve deeper into this part still and check my code piece by piece. As to figure out if there is an error in any of the resources.
+
+## Learnings
+That the error might not be in the deployment of the userdata but rather in the code itself for example Nacls.
+
+# Log 13-12-2022
+
+## One sentence Summary of the day
+Doing a full check on my code to right the wrongs.
+
+## Challenges
+Going through the code multiple times and figuring out through deployment of the code where the problem for the userdata is exactly.
+
+## Solutions
+Discuss it with my peers to learn from their insights.
+
+## Learnings
+Learned that Nacls have ephemeral ports that work in ranges which needs to be specified for certain entries.
+
+# Log 14-12-2022
+
+## One Sentence summary of the day
+Fixed the userdata issue and the problem in the Nacls.
+
+## Challenges
+Finding the Nacls that create the issue on using the userdata for the Webserver instance.
+
+## Solutions
+As mentioned in the previous log setting the ranges for ephemeral ports for some of the Nacls entries.
+
+## Learnings
+Problem is not always with the resource you are working on it might also be in an earlier made resource. 

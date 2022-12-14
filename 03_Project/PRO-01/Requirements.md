@@ -14,12 +14,12 @@
 
 Infrastructure
 - VPC - Region
-- Public & Private subnets - Availability Zones, the IP ranges are set for the subnets
+- Public subnet - Availability Zone, the IP ranges are set for the subnet
 - Internet Gateway - Attached to the Public Subnet for connection with the internet
 - VPC peering to connect both the servers to eachother, connection rules defined by ACL and SG
 - ACL's as firewall on subnet level
-- Security group as firewall on the instance level
-- Create plans to ensure that S3 creates Backups on a daily basis and that these are saved for 7 days
+- Security groups as firewall on the instance level
+- Create Backup vault plans to ensure that Backups are created on a daily basis and that these are saved for 7 days
 - Two instances in 2 different availability zones to set up the admin server and webserver individually
 - AMI is needed to setup the EC2 instance as a launch template
 - Add KMS - for encrypting and decrypting the data
@@ -29,5 +29,15 @@ Infrastructure
 IAM
 - assign roles to services
 - least privilege
-- rotate keys regularely - KMS
-- Use the SSH keys for encrypting data through KMS
+- rotate keys regularely - KMS optional
+- Use the SSH keys for access to webserver
+
+## Resources required for v1.0
+- VPC
+- EC2
+- S3
+- Security Groups
+- Network access control lists
+- IAM roles
+- Backup vault
+- KMS
