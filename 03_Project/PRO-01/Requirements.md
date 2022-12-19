@@ -1,4 +1,4 @@
-## Demands of the application by the productowner
+## Demands of the application by the productowner v1.0
 
 - All VM's have to be encrypted
 - The webserver has to have a daily created backup, this backup has to be stored for 7 days.
@@ -10,7 +10,7 @@
 - SSH or RDP connections with the webserver are only allowed from the admin server
 - Improve the architecture where needed and keep it real in order to meet the deadline
 
-## Assumed demands of the application for the architecture
+## Assumed demands of the application for the architecture v1.0
 
 Infrastructure
 - VPC - Region
@@ -24,7 +24,8 @@ Infrastructure
 - AMI is needed to setup the EC2 instance as a launch template
 - Add KMS - for encrypting and decrypting the data
 - EC2 instances attached to the VPC to ensure it runs and has the right access
-- S3 storage for Bootstrap scripts to give it userdata when the instance is deployed. This will give shape to the instance when being looked at by the public
+- S3 storage for Bootstrap scripts to give it userdata when the instance is deployed. This will give shape to the 
+instance when being looked at by the public
 
 IAM
 - assign roles to services
@@ -41,3 +42,34 @@ IAM
 - IAM roles
 - Backup vault
 - KMS
+
+## Demands of the product owner for v1.1
+
+- De webserver moet niet meer “naakt” op het internet te benaderen zijn. Het liefst ziet de klant dat er een proxy 
+tussen komt. Ook zal de server geen publiek IP adres meer moeten hebben.
+- Mocht een gebruiker via HTTP verbinding maken met de load balancer dan zou deze verbinding automatisch geupgrade 
+moeten worden naar HTTPS.
+- Hierbij moet de verbinding beveiligd zijn met minimaal TLS 1.2 of hoger.
+- De webserver moet met enige regelmaat een ‘health check’ ondergaan.
+- Mocht de webserver deze health check falen dan zou de server automatisch hersteld moeten worden.
+- Mocht de webserver onder aanhoudende belasting komen te staan dan zou er een tijdelijke extra server opgestart 
+moeten worden. De klant denkt dat er nooit meer dan 3 servers totaal nodig zijn gezien de gebruikersaantallen in het verleden.
+
+## Assumed demands for v1.1
+
+- To act as a proxy for the webserver we have to add a load balancer and make sure the IP is no longer public.
+- Make sure HTTP upgrades to HTTPS, need a certificate for this to make it work with the load balancer.
+- Connection has to be secured with at least TLS 1.2 or higher.
+- The health check is connected to the load balancer so that with the faulty check customers get re-routed to
+the next instance with the Webserver.
+- On a failed health check the failed instance needs to be automatically restored with the last working backup file from the vault.
+- If the webserver is being overloaded there has to be an extra webserver available though not more then 3 server which we will
+use autoscaling group for. This will allow scaling to demand and scale down if demand is low.
+
+## Resources required for v1.1
+- Certificate for HTTPS
+- Load Balancer
+- Health checker is part of the LB
+- Autoscaling group
+- (IAM roles) according to least privilege
+- HTTPS connection needs to be adjusted to the new demands
