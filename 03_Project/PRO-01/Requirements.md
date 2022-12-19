@@ -67,7 +67,7 @@ the next instance with the Webserver.
 use autoscaling group for. This will allow scaling to demand and scale down if demand is low.
 
 ## Resources required for v1.1
-- Certificate for HTTPS
+- Certificate Self signed not acquired through AWS
 - Load Balancer
 - Health checker is part of the LB
 - Autoscaling group
