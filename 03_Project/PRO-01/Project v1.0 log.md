@@ -176,3 +176,32 @@ As mentioned in the previous log setting the ranges for ephemeral ports for some
 
 ## Learnings
 Problem is not always with the resource you are working on it might also be in an earlier made resource. 
+
+# Log 15-12-2022
+
+## One Sentence summary of the day
+Connecting with RDP and SSH to the Webserver
+
+## Challenges
+Couldn't connect with RDP to the Admin Server or even use SSH to connect further to the Webserver.
+
+## Solutions
+Change the IP and ports to make the connections.
+
+## Learnings
+Creating a Nacl is hard work there is always something in the rules that isn't properly connected like 
+the ports or having to specify an IP address.
+
+# Log 16-12-2022
+
+## One Sentence summary of the day
+Creating a backup vault and connecting this to the existing backup plan, so that it is removed on cdk destroy.
+
+## Challenges
+I first tried on a couple of other ways to allow it to be destroyed when using cdk destroy. Like creating a seperate 
+rule for RemovalPolicy and link that to the backup plan.
+## Solutions
+though because it didn't work I still ended up making a seperate vault with the RemovalPolicy included.
+
+## Learnings
+Just try the work you find annoying from the start rather than trying to go around it as that didn't work.
