@@ -205,3 +205,33 @@ though because it didn't work I still ended up making a seperate vault with the 
 
 ## Learnings
 Just try the work you find annoying from the start rather than trying to go around it as that didn't work.
+
+# Log 19-12-2022
+
+## One Sentence summary of the day
+
+## Challenges
+
+## Solutions
+
+## Learnings
+
+# Log 20-12-2022
+
+## One Sentence summary of the day
+
+## Challenges
+
+## Solutions
+
+## Learnings
+
+# Log 21-12-2022
+
+## One Sentence summary of the day
+
+## Challenges
+
+## Solutions
+
+## Learnings
