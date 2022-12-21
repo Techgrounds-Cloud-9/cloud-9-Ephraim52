@@ -61,47 +61,45 @@ class CustomVpcStack(Stack):
         # Tag all VPC Resources
         # core.Tag.add(vpc,key="Owner",value="Dominic",include_resource_types=[])
 
-        self.cfn_VPCPeering_connection = ec2.CfnVPCPeeringConnection(self, "VPC peering connection",
-        peer_vpc_id = AdminVPC.vpc_id,
-        vpc_id = WebVPC.vpc_id,
+        self.cfn_VPCPeering_connection =ec2.CfnVPCPeeringConnection(self, "VPC peering connection",
+            peer_vpc_id = AdminVPC.vpc_id,
+            vpc_id = WebVPC.vpc_id,
 
-        # the properties below are optional
-        peer_region='eu-central-1',
-        )
+            # the properties below are optional
+            peer_region='eu-central-1',
+            )
 
         # Update Route Tables for Peering Connection
-        for subnet in WebVPC.public_subnets:
-            route_table_entry = ec2.CfnRoute(
-                self, 'VPC-Web Peer Route100',
-                route_table_id=subnet.route_table.route_table_id,
-                destination_cidr_block='10.20.20.0/24',
-                vpc_peering_connection_id=self.cfn_VPCPeering_connection.ref,
-            )
-
-        for subnet in AdminVPC.public_subnets:
-            routetableentry = ec2.CfnRoute(
-                self, 'VPC-Admin Peer Route99',
-                route_table_id=subnet.route_table.route_table_id,
-                destination_cidr_block='10.10.10.0/24',
-                vpc_peering_connection_id=self.cfn_VPCPeering_connection.ref,
-            )
-
-        #create and configure the Application Load Balancer
-        APPlb = elbv2.ApplicationLoadBalancer(
-            self, "Application Load Balancer",
-            vpc=WebVPC,
-            internet_facing=True,
+        route_table_web_entry = ec2.CfnRoute(
+            self, 'VPC-Web Peer Route',
+            route_table_id=WebVPC.public_subnets[0].route_table.route_table_id,
+            destination_cidr_block='10.20.20.0/24',
+            vpc_peering_connection_id=self.cfn_VPCPeering_connection.attr_id,
         )
 
-        # redirect HTTP traffic to HTTPS, from port 80 to port 443
-        APPlb.add_redirect()
+        route_table_admin_entry = ec2.CfnRoute(
+            self, 'VPC-admin Peer Route',
+            route_table_id=WebVPC.public_subnets[1].route_table.route_table_id,
+            destination_cidr_block='10.10.10.0/24',
+            vpc_peering_connection_id=self.cfn_VPCPeering_connection.attr_id,
+        )
 
-        # adding the listeners for HTTP and HTTPS port 80 and 443
-        listener80 = APPlb.add_listener("listener80", port = 80)
-        # listener443 = APPlb.addlistener("listener443", port = 443)
+#         #create and configure the Application Load Balancer
+#         APPlb = elbv2.ApplicationLoadBalancer(
+#             self, "Application Load Balancer",
+#             vpc=WebVPC,
+#             internet_facing=True,
+#         )
 
-        target80 = listener80.add_targets("target 80", port = 80, targets= [])
-        # target443 = listener443.addtargets("target 443", port = 443, targets = [asg])
+#         # redirect HTTP traffic to HTTPS, from port 80 to port 443
+#         APPlb.add_redirect()
+
+#         # adding the listeners for HTTP and HTTPS port 80 and 443
+#         listener80 = APPlb.add_listener("listener80", port = 80)
+#         # listener443 = APPlb.addlistener("listener443", port = 443)
+
+#         target80 = listener80.add_targets("target 80", port = 80, targets= [])
+#         # target443 = listener443.addtargets("target 443", port = 443, targets = [asg])
 
 # this is the Webserver ACL which needs to be Public, accessible from the Admin server only through SSH and RDP
         web_network_acl = ec2.NetworkAcl(
@@ -116,6 +114,7 @@ class CustomVpcStack(Stack):
                 subnet_type=ec2.SubnetType.PUBLIC
             )
         )
+
         # these are the entries that specify the rules on what is allowed like, inbound and outbound traffic
         # Outgoing Webserver ACL rules
 #         network_acl_entry = ec2.NetworkAclEntry(self, "Allow Ephemeral Egress",
