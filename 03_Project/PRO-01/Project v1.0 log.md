@@ -209,24 +209,46 @@ Just try the work you find annoying from the start rather than trying to go arou
 # Log 19-12-2022
 
 ## One Sentence summary of the day
+Starting the week on v1.1 making the epics.
 
 ## Challenges
+Adjusting the diagram to the current requirements of v1.1
 
 ## Solutions
+Over time I will gain more insight into what is specifically required for v1.1 as well as maybe something can be added from best practice to even improve this version.
 
 ## Learnings
+Learning takes time. A lot...
 
 # Log 20-12-2022
 
 ## One Sentence summary of the day
+Working on the RDP and SSH connection from the Admin server to the Webserver.
 
 ## Challenges
+It won't create the SSH connection from the Admin server to the Webserver. Have to check if this is a problem coming from the NACLs or the SG's.
 
 ## Solutions
+Haven't found it yet but the RDP connection is working. I am however convinced it is something in the NACLs.
 
 ## Learnings
+Need to read up more on SSH connection about being established through NACLs in code.
 
 # Log 21-12-2022
+
+## One Sentence summary of the day
+Adjusted my cidr block from 26 to 25 and set the vpc and subnets to span 2 availability zones.
+
+## Challenges
+It kept giving the error that "A construct with that name 'VPC-Web peer route' already exists." even when I changed this string which seemed to be mentioned on a lot of website as the issue it kept giving the error.
+
+## Solutions
+The problem was in the for loop of the peering connection as it generate a unique string each time it had to run and because of 2 availability zones it had to duplicate this twice which it couldn't do hence the problem as mentioned at challenges. So I removed the for loop and changed the values to connect again to establish the vpc peering once more.
+
+## Learnings
+A for loop can also create the same issue with the identifier string as simply having a string with the same value double. For loop in this case spans all AZs you attach it too and as such will always give this error, so I shouldn't have used the for loop to begin with.
+
+# Log 22-12-2022
 
 ## One Sentence summary of the day
 
