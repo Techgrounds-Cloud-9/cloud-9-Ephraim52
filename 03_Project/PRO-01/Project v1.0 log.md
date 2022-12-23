@@ -251,6 +251,20 @@ A for loop can also create the same issue with the identifier string as simply h
 # Log 22-12-2022
 
 ## One Sentence summary of the day
+Applying the Auto Scaling Group to the code and it needs some tweaking.
+
+## Challenges
+Finding out how it needs to be connected to the userdata and launch multiple instances up to 3 if the first one is overloaded. How to set a thresshold to make the ASG create the extra instances.
+
+## Solutions
+Still looking how to apply the userdata, as for the ASG I set a thresshold at 80% CPU usage if it goes over that then a new instance will be created.
+
+## Learnings
+How to set thressholds in code and that userdata is a very hard thing to link to your resources for usage.
+
+# Log 23-12-2022
+
+## One Sentence summary of the day
 
 ## Challenges
 
