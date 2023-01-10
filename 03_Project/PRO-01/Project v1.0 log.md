@@ -265,6 +265,34 @@ How to set thressholds in code and that userdata is a very hard thing to link to
 # Log 23-12-2022
 
 ## One Sentence summary of the day
+Managed to create error after error, like an endless cycle.
+
+## Challenges
+Fixing the errors one by one.
+
+## Solutions
+Starting from scratch again with the experience gained from working on this project.
+
+## Learnings
+Seperate stacks are better to troubleshoot then having one stack which becomes hard to read due to it being cluttered.
+
+# Log 09-01-2023
+
+## One Sentence summary of the day
+Troubleshooting the Runtime error in my new project environment.
+
+## Challenges
+Reading a lot about Runtime and solutions, where to look at.
+
+## Solutions
+Tried changing variable names and parameters, didn't work so I keep looking.
+
+## Learnings
+Understanding what a Runtime error is.
+
+# Log
+
+## One Sentence summary of the day
 
 ## Challenges
 
