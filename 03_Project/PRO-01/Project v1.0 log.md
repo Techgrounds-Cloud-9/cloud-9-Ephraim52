@@ -290,7 +290,21 @@ Tried changing variable names and parameters, didn't work so I keep looking.
 ## Learnings
 Understanding what a Runtime error is.
 
-# Log
+# Log 10-01-2023
+
+## One Sentence summary of the day
+Fixing the Runetime errors by discussing the issue.
+
+## Challenges
+Fixing the Runtime error after the discussion.
+
+## Solutions
+Work within the rules of the AWS CDK Toolkit as the toolkit has its own rules python rules don't always apply.
+Simply said you are working in a Framework.
+
+## Learnings
+
+# Log 11-01-2023
 
 ## One Sentence summary of the day
 
@@ -299,3 +313,68 @@ Understanding what a Runtime error is.
 ## Solutions
 
 ## Learnings
+
+# Log 12-01-2023
+
+## One Sentence summary of the day
+
+## Challenges
+
+## Solutions
+
+## Learnings
+
+# Log 13-01-2023
+
+## One Sentence summary of the day
+
+## Challenges
+
+## Solutions
+
+## Learnings
+
+# Log 16-01-2023 
+
+## One Sentence summary of the day
+Sending out job interviews and writing the nacls for the private subnet of the webserver.
+
+## Challenges
+Writing motivation letters over and over specific to the companies I applied for.
+
+## Solutions
+Have like a standard template written by myself ready, editing only some minor adjustments to
+specify it towards the company I apply to.
+
+## Learnings
+Never forgot to edit or change the motivation letter.
+
+# Log 17-01-2023
+
+## One Sentence summary of the day
+Job interviews no time for the project sadly.
+
+## Challenges
+NA
+
+## Solutions
+NA
+
+## Learnings
+To prepare myself better have more questions regarding the employer/company like their product.
+
+# Log 18-01-2023
+
+## One Sentence summary of the day
+Don't understand how to import the SSL Certificate and get it to work.
+
+## Challenges
+Find a way to import the Certificate.
+
+## Solutions
+After a talk with Casper I was pointed into the direction of SSL offloading. As well as understanding 
+that I should make my search keywords more specific. Like what is really needed in this and anything that
+is a maybe involved shouldn't be mentioned.
+## Learnings
+
+
