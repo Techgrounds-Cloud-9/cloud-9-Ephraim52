@@ -355,7 +355,9 @@ Never forgot to edit or change the motivation letter.
 Job interviews no time for the project sadly.
 
 ## Challenges
-NA
+At first everything during the interview seemed positive, though what they actually want is more specific
+technical questions that show a certain interest in them as a company on what they provide for their
+customers.
 
 ## Solutions
 NA
@@ -375,6 +377,17 @@ Find a way to import the Certificate.
 After a talk with Casper I was pointed into the direction of SSL offloading. As well as understanding 
 that I should make my search keywords more specific. Like what is really needed in this and anything that
 is a maybe involved shouldn't be mentioned.
+
 ## Learnings
+I understood that I should make my search keywords more specific, to get better search results that fit the question. Like what is really needed 
+in this and anything that is a maybe involved shouldn't be mentioned.
 
+# Log 19-01-2023
 
+## One Sentence summary of the day
+
+## Challenges
+
+## Solutions
+
+## Learnings
