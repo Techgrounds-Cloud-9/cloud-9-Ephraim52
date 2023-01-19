@@ -65,6 +65,8 @@ the next instance with the Webserver.
 - On a failed health check the failed instance needs to be automatically restored with the last working backup file from the vault.
 - If the webserver is being overloaded there has to be an extra webserver available though not more then 3 server which we will
 use autoscaling group for. This will allow scaling to demand and scale down if demand is low.
+- Backupvault is no longer required as the webserver has no data on it aside of the userdata and ami. Which both in
+their own way can be provided as a backup.
 
 ## Resources required for v1.1
 - Certificate Self signed not acquired through AWS
@@ -72,4 +74,4 @@ use autoscaling group for. This will allow scaling to demand and scale down if d
 - Health checker is part of the LB
 - Autoscaling group
 - (IAM roles) according to least privilege
-- HTTPS connection needs to be adjusted to the new demands
+- HTTPS connection needs to be adjusted to the new demands.
