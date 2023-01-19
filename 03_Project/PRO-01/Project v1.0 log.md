@@ -396,6 +396,8 @@ I changed the variables to be in the first vpc variable in app.py, so I could li
 So the issue was that I divided the cidr block in the wrong way when I added the private subnet. For fixing this I gave the bigger block
 to the private subnet and the smaller block to the public subnet so that they each have their respective cidr range.
 
+For creating and importing the certificate I should read up on SSL offloading.
+
 ## Learnings
 These parameters can only be set in the same variable and not recreated into a variable of the same kind, what I tried by using the 
 stack twice for seperate parameters of different stacks. Always make sure that the cidr is set correctly if you add another subnet.
