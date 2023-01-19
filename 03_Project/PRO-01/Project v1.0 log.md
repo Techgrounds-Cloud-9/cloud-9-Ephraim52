@@ -385,9 +385,14 @@ in this and anything that is a maybe involved shouldn't be mentioned.
 # Log 19-01-2023
 
 ## One Sentence summary of the day
+Solved a couple of errors in the code that came up with cdk ls.
 
 ## Challenges
+Figuring out in which part I for example missed 2 positional arguments for variables.
 
 ## Solutions
+I changed the variables to be in the first vpc variable in app.py, so I could link the kms keys to the servers that needed encryption. 
 
 ## Learnings
+These parameters can only be set in the same variable and not recreated into a variable of the same kind, what I tried by using the 
+stack twice for seperate parameters of different stacks.
