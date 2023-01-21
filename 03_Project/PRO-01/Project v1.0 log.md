@@ -401,3 +401,20 @@ For creating and importing the certificate I should read up on SSL offloading.
 ## Learnings
 These parameters can only be set in the same variable and not recreated into a variable of the same kind, what I tried by using the 
 stack twice for seperate parameters of different stacks. Always make sure that the cidr is set correctly if you add another subnet.
+
+# Log 20-01-2023
+
+## One Sentence summary of the day
+converting my two constructs to stacks and re-attaching them together through app.py file, as well as other stacks.
+
+## Challenges
+Got an error that some kind of loop is running between 2 stacks due to them being depended on eachother. Which after 
+thorough investigation is not the case. I am only exporting from one file to the other and not vice versa.
+
+## Solutions
+Looking in to this and double checking if everything is connected in a one way traffic manner. So that I can say with 
+certainty that its not depending on eachother. But rather just one on the other, not both ways.
+
+## Learnings
+It might be easier to put the resources that belong on the vpc itself or are a part of it in one stack. Rather then 
+trying to keep them seperate just for a better overview of the code when troubleshooting. 
