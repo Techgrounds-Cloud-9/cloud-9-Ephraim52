@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-23T09:09:00.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.6.2" etag="H2wMLBsM5VmbeVEyBbPG" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-23T09:26:04.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.6.2" etag="fwtsLL1zCdvPv30bMyzB" type="github">
   <diagram id="a1ukTIARGKiZo2ybFdTu" name="Pagina-1">
     <mxGraphModel dx="2489" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,13 +216,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NHYo-Zj5u36uB8yAqysU-67" value="Application Load Balancer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="82.5" y="-75" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NHYo-Zj5u36uB8yAqysU-68" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.certificate;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="700" y="490" width="63" height="85.5" as="geometry" />
+          <mxGeometry x="212.5" y="-40" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NHYo-Zj5u36uB8yAqysU-69" value="SSL Certificate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="680" y="449" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-70" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.certificate_manager_2;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="693.25" y="479" width="73.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NHYo-Zj5u36uB8yAqysU-71" target="NHYo-Zj5u36uB8yAqysU-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-71" value="Client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
+          <mxGeometry x="134.5" y="-178" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NHYo-Zj5u36uB8yAqysU-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-73" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/User_Privacy.svg;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="600" width="80" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-76" value="Trusted User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-282" y="600" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
