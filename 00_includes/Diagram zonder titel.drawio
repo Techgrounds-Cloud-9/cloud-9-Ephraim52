@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-23T09:05:50.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.6.2" etag="KWZNbcSAvmxPmnU7Pcum" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-23T09:09:00.152Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.6.2" etag="H2wMLBsM5VmbeVEyBbPG" type="github">
   <diagram id="a1ukTIARGKiZo2ybFdTu" name="Pagina-1">
     <mxGraphModel dx="2489" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
             <mxPoint x="-360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NHYo-Zj5u36uB8yAqysU-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;startArrow=none;" edge="1" parent="1" source="NHYo-Zj5u36uB8yAqysU-65">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-360" as="sourcePoint" />
             <mxPoint x="760" as="targetPoint" />
@@ -205,6 +205,24 @@
         </mxCell>
         <mxCell id="NHYo-Zj5u36uB8yAqysU-64" value="VPC Peering Connection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="232.5" y="585" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-65" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.application_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-40" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-66" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="NHYo-Zj5u36uB8yAqysU-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-360" as="sourcePoint" />
+            <mxPoint x="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-67" value="Application Load Balancer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="-75" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-68" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.certificate;fillColor=#5294CF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="490" width="63" height="85.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NHYo-Zj5u36uB8yAqysU-69" value="SSL Certificate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="449" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
