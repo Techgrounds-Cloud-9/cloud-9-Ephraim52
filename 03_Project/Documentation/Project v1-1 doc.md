@@ -20,6 +20,14 @@ def=
 - The same goes for v1.1 which I added in the same requirements document.
 - Create a webserver and admin server to the specifics of the customer.
 
+## Problems explained
+### Setting parameters
+In the stack you want to export the variable from. You define this variable between class and definition, like the kms_stack has "admin_key = kms.Key", 'kms' being the module and 'Key' being the class. Further down below in the stack you define the variable by writing it as such: self.admin_key=Admin_Key, this links the variable Admin_Key in the class key which creates a resource you want to export and use in another stack through the variable admin_key.
+
+Then in the configuration file app.py import the stack and create a variable that calls the class of the stack (that being the stackname you imported). That being written as: "resource_encryption_Stack=KMS_stack(app, "kmsstack")", to export you also create a variable for the specific stack you want to import it to. "VPCStack_=VPCStack(app, "vpcstack", admin_server_enc_key=resource_encryption_Stack.admin_key)". What you see here is the variable VPCStack_ that respresents the class VPCStack importing through the resource_encryption_Stack variable the defined variable admin_key. Which is imported through the parameter admin_server_enc_key.
+
+Then going to the VPCStack within define you set the construct_id (parameter) and the string (module and class attached to the variable in the parameter). Connect that parameter to the correct resource/part of your stack through another variable: kms_key=admin_server_enc_key.
+
 ## Sources
 Too many...
 
