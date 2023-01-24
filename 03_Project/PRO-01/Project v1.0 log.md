@@ -418,3 +418,31 @@ certainty that its not depending on eachother. But rather just one on the other,
 ## Learnings
 It might be easier to put the resources that belong on the vpc itself or are a part of it in one stack. Rather then 
 trying to keep them seperate just for a better overview of the code when troubleshooting. 
+
+# Log 23-01-2023
+
+## One Sentence summary of the day
+Writing documentation and the presentation.
+
+## Challenges
+Organizing the documentation in an understandable way.
+
+## Solutions
+Read back in the logs for challenges and set up a general manual of the project how it works and functions.
+
+## Learnings
+It is good to keep logs a bit more detailed then this.
+
+# Log 24-01-2023
+
+## One Sentence summary of the day
+Troubleshooting the stacks till it is on a functioning level.
+
+## Challenges
+Solving the issue of my missing Keys and adding nacl's, security groups and variables.
+
+## Solutions
+Just writing and thinking. I added the key variables back in to link it to its property. Also simply added the nacl's and security groups and added them to their respective resources.
+
+## Learnings
+Don't work when you are sick!
