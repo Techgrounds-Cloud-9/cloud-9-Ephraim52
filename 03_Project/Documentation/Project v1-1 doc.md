@@ -28,6 +28,9 @@ Then in the configuration file app.py import the stack and create a variable tha
 
 Then going to the VPCStack within define you set the construct_id (parameter) and the string (module and class attached to the variable in the parameter). Connect that parameter to the correct resource/part of your stack through another variable: kms_key=admin_server_enc_key.
 
+### Getting the key from the Parameter store
+Go to systems manager -> parameter store -> find the correct key ID through EC2 and check in the instance which key ID it is. Then go to the key in parameter store and show the content put that in a text file and convert it to a .pem file. This can be used for the RDP and SSH connection.
+
 ## Sources
 Too many...
 
