@@ -446,3 +446,20 @@ Just writing and thinking. I added the key variables back in to link it to its p
 
 ## Learnings
 Don't work when you are sick!
+
+# Log 25-01-2023
+
+## One Sentence summary of the day
+Preparing my project for the presentation and making sure my documentation is done.
+
+## Challenges
+Still got an error on deployment phase, working out the new error. The other challenge is I only got till 12 o'clock,
+after that I am going to rest in hopes of a speedy recovery.
+
+## Solutions
+Time management, I focus my time on the things that need to be completed/working for the presentation.
+- Deployment of the app
+- Documentation of what I have learned.
+
+## Learnings
+Efficiently manage my time by prioritizing requirements to succesfully present on the 27th friday.
