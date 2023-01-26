@@ -34,7 +34,7 @@ Then going to the VPCStack within define you set the construct_id (parameter) an
 Go to systems manager -> parameter store -> find the correct key ID through EC2 and check in the instance which key ID it is. Then go to the key in parameter store and show the content put that in a text file and convert it to a .pem file. This can be used for the RDP and SSH connection.
 
 ### SSH commandline
-ssh -i "ec2-key-pair.pem" ec2-user@<Public IP or Private IP Webserver>
+ssh -i "ec2-key-pair.pem" ec2-user@(Public IP or Private IP Webserver)
 
 ## Sources
 Too many...
