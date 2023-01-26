@@ -463,3 +463,15 @@ Time management, I focus my time on the things that need to be completed/working
 
 ## Learnings
 Efficiently manage my time by prioritizing requirements to succesfully present on the 27th friday.
+
+# Log 26-01-2023
+
+## One Sentence summary of the day
+Getting the stacks to work apperantly due to the lack of focus I missed some details on connecting everything properly.
+
+## Challenges
+Fixing the connections between resources.
+
+## Solutions
+
+## Learnings
