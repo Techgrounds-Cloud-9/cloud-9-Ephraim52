@@ -418,3 +418,60 @@ certainty that its not depending on eachother. But rather just one on the other,
 ## Learnings
 It might be easier to put the resources that belong on the vpc itself or are a part of it in one stack. Rather then 
 trying to keep them seperate just for a better overview of the code when troubleshooting. 
+
+# Log 23-01-2023
+
+## One Sentence summary of the day
+Writing documentation and the presentation.
+
+## Challenges
+Organizing the documentation in an understandable way.
+
+## Solutions
+Read back in the logs for challenges and set up a general manual of the project how it works and functions.
+
+## Learnings
+It is good to keep logs a bit more detailed then this.
+
+# Log 24-01-2023
+
+## One Sentence summary of the day
+Troubleshooting the stacks till it is on a functioning level.
+
+## Challenges
+Solving the issue of my missing Keys and adding nacl's, security groups and variables.
+
+## Solutions
+Just writing and thinking. I added the key variables back in to link it to its property. Also simply added the nacl's and security groups and added them to their respective resources.
+
+## Learnings
+Don't work when you are sick!
+
+# Log 25-01-2023
+
+## One Sentence summary of the day
+Preparing my project for the presentation and making sure my documentation is done.
+
+## Challenges
+Still got an error on deployment phase, working out the new error. The other challenge is I only got till 12 o'clock,
+after that I am going to rest in hopes of a speedy recovery.
+
+## Solutions
+Time management, I focus my time on the things that need to be completed/working for the presentation.
+- Deployment of the app
+- Documentation of what I have learned.
+
+## Learnings
+Efficiently manage my time by prioritizing requirements to succesfully present on the 27th friday.
+
+# Log 26-01-2023
+
+## One Sentence summary of the day
+Getting the stacks to work apperantly due to the lack of focus I missed some details on connecting everything properly.
+
+## Challenges
+Fixing the connections between resources.
+
+## Solutions
+
+## Learnings
