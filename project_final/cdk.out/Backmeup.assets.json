@@ -1,0 +1,19 @@
+{
+  "version": "22.0.0",
+  "files": {
+    "fa573264eb7a7cb28e990dbddbce8ed980b777d5fa98559c256334e4a9b7ea98": {
+      "source": {
+        "path": "Backmeup.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "fa573264eb7a7cb28e990dbddbce8ed980b777d5fa98559c256334e4a9b7ea98.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

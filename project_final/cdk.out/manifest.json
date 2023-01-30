@@ -1,0 +1,1059 @@
+{
+  "version": "22.0.0",
+  "artifacts": {
+    "MyCertificate.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "MyCertificate.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "MyCertificate": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "MyCertificate.template.json",
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/a8746de62afcc24cd17afc217a8c666e6fd337ed83211f04d3491881bd96876d.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "MyCertificate.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "MyCertificate.assets"
+      ],
+      "metadata": {
+        "/MyCertificate/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/MyCertificate/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/MyCertificate/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/MyCertificate/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "MyCertificate"
+    },
+    "kmsstack.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "kmsstack.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "kmsstack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "kmsstack.template.json",
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/703aa632bd1a5015eaf31eee7411cd48d5a82dac120b8bf64531447b58f155b5.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "kmsstack.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "kmsstack.assets"
+      ],
+      "metadata": {
+        "/kmsstack/Admin_Key/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminKey1F02F8AA"
+          }
+        ],
+        "/kmsstack/Admin_Key/Alias/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminKeyAliasF57C8412"
+          }
+        ],
+        "/kmsstack/Web_Key/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebKey517C01C5"
+          }
+        ],
+        "/kmsstack/Web_Key/Alias/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebKeyAliasF1BD0B00"
+          }
+        ],
+        "/kmsstack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/kmsstack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/kmsstack/Exports/Output{\"Fn::GetAtt\":[\"AdminKey1F02F8AA\",\"Arn\"]}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputFnGetAttAdminKey1F02F8AAArn429FBEDF"
+          }
+        ],
+        "/kmsstack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/kmsstack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "kmsstack"
+    },
+    "vpcstack.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "vpcstack.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "vpcstack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "vpcstack.template.json",
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/9bd4fc790852655e1bdfabad994a1eaa1a922e5cc5d16d5ac05a48970671fe99.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "vpcstack.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "kmsstack",
+        "vpcstack.assets"
+      ],
+      "metadata": {
+        "/vpcstack/Webserver VPC/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPC3C31823C"
+          }
+        ],
+        "/vpcstack/Webserver VPC/publicSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCpublicSubnet1SubnetD1A72416"
+          }
+        ],
+        "/vpcstack/Webserver VPC/publicSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCpublicSubnet1RouteTableF46F14F4"
+          }
+        ],
+        "/vpcstack/Webserver VPC/publicSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCpublicSubnet1RouteTableAssociationA179C1E4"
+          }
+        ],
+        "/vpcstack/Webserver VPC/publicSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCpublicSubnet1DefaultRoute1AB34025"
+          }
+        ],
+        "/vpcstack/Webserver VPC/publicSubnet1/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCpublicSubnet1EIPEBAD6C41"
+          }
+        ],
+        "/vpcstack/Webserver VPC/publicSubnet1/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCpublicSubnet1NATGateway6E71CF72"
+          }
+        ],
+        "/vpcstack/Webserver VPC/publicSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCpublicSubnet2Subnet7144402F"
+          }
+        ],
+        "/vpcstack/Webserver VPC/publicSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCpublicSubnet2RouteTableB4D1C25A"
+          }
+        ],
+        "/vpcstack/Webserver VPC/publicSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCpublicSubnet2RouteTableAssociation7A6E4AB9"
+          }
+        ],
+        "/vpcstack/Webserver VPC/publicSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCpublicSubnet2DefaultRoute7A54ACA8"
+          }
+        ],
+        "/vpcstack/Webserver VPC/privateSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCprivateSubnet1SubnetB499AF88"
+          }
+        ],
+        "/vpcstack/Webserver VPC/privateSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCprivateSubnet1RouteTableC7B6870C"
+          }
+        ],
+        "/vpcstack/Webserver VPC/privateSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCprivateSubnet1RouteTableAssociation305F4A61"
+          }
+        ],
+        "/vpcstack/Webserver VPC/privateSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCprivateSubnet1DefaultRoute5A64B447"
+          }
+        ],
+        "/vpcstack/Webserver VPC/privateSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCprivateSubnet2SubnetFFA48BDF"
+          }
+        ],
+        "/vpcstack/Webserver VPC/privateSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCprivateSubnet2RouteTable73BE0868"
+          }
+        ],
+        "/vpcstack/Webserver VPC/privateSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCprivateSubnet2RouteTableAssociation21F6AC66"
+          }
+        ],
+        "/vpcstack/Webserver VPC/privateSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCprivateSubnet2DefaultRoute68E434DC"
+          }
+        ],
+        "/vpcstack/Webserver VPC/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCIGW70DF0826"
+          }
+        ],
+        "/vpcstack/Webserver VPC/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverVPCVPCGW1A106FF8"
+          }
+        ],
+        "/vpcstack/Admin VPC/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPC20736A37"
+          }
+        ],
+        "/vpcstack/Admin VPC/publicSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCpublicSubnet1SubnetD4FB6981"
+          }
+        ],
+        "/vpcstack/Admin VPC/publicSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCpublicSubnet1RouteTable90B192A7"
+          }
+        ],
+        "/vpcstack/Admin VPC/publicSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCpublicSubnet1RouteTableAssociation47BACE65"
+          }
+        ],
+        "/vpcstack/Admin VPC/publicSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCpublicSubnet1DefaultRouteF236A747"
+          }
+        ],
+        "/vpcstack/Admin VPC/publicSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCpublicSubnet2Subnet69C0699E"
+          }
+        ],
+        "/vpcstack/Admin VPC/publicSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCpublicSubnet2RouteTable41D7C2B4"
+          }
+        ],
+        "/vpcstack/Admin VPC/publicSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCpublicSubnet2RouteTableAssociation879608D1"
+          }
+        ],
+        "/vpcstack/Admin VPC/publicSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCpublicSubnet2DefaultRoute7B1376DA"
+          }
+        ],
+        "/vpcstack/Admin VPC/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCIGWFE0ACF4F"
+          }
+        ],
+        "/vpcstack/Admin VPC/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCVPCGWC6968330"
+          }
+        ],
+        "/vpcstack/VPC peering connection": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCpeeringconnection"
+          }
+        ],
+        "/vpcstack/WebVPC_to_AdminVPC_Route1": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebVPCtoAdminVPCRoute1"
+          }
+        ],
+        "/vpcstack/WebVPC_to_AdminVPC_Route2": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebVPCtoAdminVPCRoute2"
+          }
+        ],
+        "/vpcstack/AdminVPC_to_WebVPC_Route1": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCtoWebVPCRoute1"
+          }
+        ],
+        "/vpcstack/AdminVPC_to_WebVPC_Route2": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCtoWebVPCRoute2"
+          }
+        ],
+        "/vpcstack/Admin_server_KeyPair": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminserverKeyPair"
+          }
+        ],
+        "/vpcstack/Admin SG/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminSG5673A08E"
+          }
+        ],
+        "/vpcstack/Admin Server/InstanceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminServerInstanceRole4C534351"
+          }
+        ],
+        "/vpcstack/Admin Server/InstanceProfile": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminServerInstanceProfile3E3E505C"
+          }
+        ],
+        "/vpcstack/Admin Server/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminServerFBA5D893"
+          }
+        ],
+        "/vpcstack/SsmParameterValue:--aws--service--ami-windows-latest--Windows_Server-2022-English-Full-Base:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SsmParameterValueawsserviceamiwindowslatestWindowsServer2022EnglishFullBaseC96584B6F00A464EAD1953AFF4B05118Parameter"
+          }
+        ],
+        "/vpcstack/webserver-role/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webserverroleDB0308B6"
+          }
+        ],
+        "/vpcstack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/vpcstack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Ref\":\"WebserverVPC3C31823C\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefWebserverVPC3C31823CA099E98D"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Ref\":\"WebserverVPCprivateSubnet1SubnetB499AF88\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefWebserverVPCprivateSubnet1SubnetB499AF8883C32BAA"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Ref\":\"WebserverVPCprivateSubnet2SubnetFFA48BDF\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefWebserverVPCprivateSubnet2SubnetFFA48BDFC86F5370"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Fn::GetAtt\":[\"WebserverVPC3C31823C\",\"CidrBlock\"]}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputFnGetAttWebserverVPC3C31823CCidrBlock69939038"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Fn::GetAtt\":[\"AdminVPC20736A37\",\"CidrBlock\"]}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputFnGetAttAdminVPC20736A37CidrBlock9C02BE30"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Ref\":\"WebserverVPCpublicSubnet1SubnetD1A72416\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefWebserverVPCpublicSubnet1SubnetD1A72416B1625E4E"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Ref\":\"WebserverVPCpublicSubnet2Subnet7144402F\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefWebserverVPCpublicSubnet2Subnet7144402FC2A0B306"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Ref\":\"AdminVPC20736A37\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefAdminVPC20736A37813A23B9"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Ref\":\"AdminVPCpublicSubnet1SubnetD4FB6981\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefAdminVPCpublicSubnet1SubnetD4FB6981EC2D639B"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Ref\":\"AdminVPCpublicSubnet2Subnet69C0699E\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefAdminVPCpublicSubnet2Subnet69C0699E230C25DD"
+          }
+        ],
+        "/vpcstack/Exports/Output{\"Ref\":\"webserverroleDB0308B6\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefwebserverroleDB0308B6CCC265E4"
+          }
+        ],
+        "/vpcstack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/vpcstack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "vpcstack"
+    },
+    "NaclStack.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "NaclStack.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "NaclStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "NaclStack.template.json",
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/f037aa01ce7f78e59623a8d204974f6840a98ce3d68e33a79414b5d19a9da9b9.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "NaclStack.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "vpcstack",
+        "NaclStack.assets"
+      ],
+      "metadata": {
+        "/NaclStack/private Web VPC Acl/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAcl2E141BCD"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/DefaultAssociationvpcstackWebserverVPCprivateSubnet17822171D/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclDefaultAssociationvpcstackWebserverVPCprivateSubnet17822171D1A772075"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/DefaultAssociationvpcstackWebserverVPCprivateSubnet293D77A13/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclDefaultAssociationvpcstackWebserverVPCprivateSubnet293D77A139A2A5910"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/HTTP inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclHTTPinboundallow1E1E9AF2"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/HTTP outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclHTTPoutboundallow60B18397"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/HTTPS inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclHTTPSinboundallow7CB9D3D9"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/HTTP-outbound-allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclHTTPoutboundallowCB5DA66A"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/SSH inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclSSHinboundallowBCC05C97"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/SSH Ephemeral outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclSSHEphemeraloutboundallow8AFF7951"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/Ephemeral HTTP inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclEphemeralHTTPinboundallow0C91057A"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/Ephemeral to HTTPS outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclEphemeraltoHTTPSoutboundallowC46680F0"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/Ephemeral ipv6 inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclEphemeralipv6inboundallowACEE39FB"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/HTTPS outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclHTTPSoutboundallow05618B82"
+          }
+        ],
+        "/NaclStack/private Web VPC Acl/Ephemeral outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "privateWebVPCAclEphemeraloutboundallow4F6B379A"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclBF5F0796"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/DefaultAssociationvpcstackWebserverVPCpublicSubnet16D50F9A9/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclDefaultAssociationvpcstackWebserverVPCpublicSubnet16D50F9A91EF6D004"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/DefaultAssociationvpcstackWebserverVPCpublicSubnet28D417C52/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclDefaultAssociationvpcstackWebserverVPCpublicSubnet28D417C5214BC9E05"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/HTTP inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclHTTPinboundallow3A81DE3C"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/HTTP outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclHTTPoutboundallow639174EE"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/HTTPS inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclHTTPSinboundallow51838382"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/HTTPS outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclHTTPSoutboundallow72C74098"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/Ephemeral inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclEphemeralinboundallowF4DC269F"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/Ephemeral outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclEphemeraloutboundallowA428AFFF"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/Ephemeral ipv6 inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclEphemeralipv6inboundallowCB4D6063"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/Ephemeral ipv6 outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclEphemeralipv6outboundallowC91AAEB3"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/HTTP ipv6 inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclHTTPipv6inboundallowC38BBDE2"
+          }
+        ],
+        "/NaclStack/public load balancer webserver acl/HTTPS ipv6 inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "publicloadbalancerwebserveraclHTTPSipv6inboundallowA18F9B22"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAcl444441A8"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/DefaultAssociationvpcstackAdminVPCpublicSubnet104C39EC9/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclDefaultAssociationvpcstackAdminVPCpublicSubnet104C39EC91D5DEFFD"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/DefaultAssociationvpcstackAdminVPCpublicSubnet2AC6B4388/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclDefaultAssociationvpcstackAdminVPCpublicSubnet2AC6B43885747F6FE"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/SSH home inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclSSHhomeinboundallow6553A300"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/SSH web outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclSSHweboutboundallowA27CA22F"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/RDP inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclRDPinboundallow60CF15A4"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/RDP outbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclRDPoutboundallowBCC00FCC"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/Ephemeral ipv4 inbound web/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclEphemeralipv4inboundwebBA8C7366"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/HTTPS ipv6 outbound web/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclHTTPSipv6outboundweb11F02552"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/Ephemeral ipv6 inbound allow trusted ip/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclEphemeralipv6inboundallowtrustedip6A395D8B"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/Ephemeral ipv4 outbound trusted ip/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclEphemeralipv4outboundtrustedipDA56DE07"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/Ephemeral ipv4 inbound allow/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclEphemeralipv4inboundallowAA9E07AB"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/HTTP outbound web/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclHTTPoutboundweb5AE9B7A7"
+          }
+        ],
+        "/NaclStack/Admin VPC Acl/HTTPS outbound web/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminVPCAclHTTPSoutboundwebD03D2219"
+          }
+        ],
+        "/NaclStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/NaclStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/NaclStack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/NaclStack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "NaclStack"
+    },
+    "webasgalbstack.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "webasgalbstack.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "webasgalbstack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "webasgalbstack.template.json",
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/80ff4317e65477b69051a45e524033abbbbdd2121e4fbb33f79d283f715c24c7.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "webasgalbstack.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-lookup-role-${AWS::AccountId}-${AWS::Region}",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "vpcstack",
+        "webasgalbstack.assets"
+      ],
+      "metadata": {
+        "/webasgalbstack/Web SG/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebSGBF98F91A"
+          }
+        ],
+        "/webasgalbstack/Web SG/from webasgalbstackWebserverLoadBalancerSecurityGroup838A2E4B:80": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebSGfromwebasgalbstackWebserverLoadBalancerSecurityGroup838A2E4B8097722F1D"
+          }
+        ],
+        "/webasgalbstack/Webserver_KeyPair": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverKeyPair"
+          }
+        ],
+        "/webasgalbstack/Web_template_for_launch/Profile": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebtemplateforlaunchProfileFD88FDAF"
+          }
+        ],
+        "/webasgalbstack/Web_template_for_launch/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Webtemplateforlaunch8A442871"
+          }
+        ],
+        "/webasgalbstack/SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn2-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SsmParameterValueawsserviceamiamazonlinuxlatestamzn2amihvmx8664gp2C96584B6F00A464EAD1953AFF4B05118Parameter"
+          }
+        ],
+        "/webasgalbstack/web-autoscaling-group/ASG": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webautoscalinggroupASGF4901EB3"
+          }
+        ],
+        "/webasgalbstack/web-autoscaling-group/ScalingPolicycpu-auto-scaling/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webautoscalinggroupScalingPolicycpuautoscaling630B5C3A"
+          }
+        ],
+        "/webasgalbstack/webasgalbstack/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webasgalbstack23D0177B"
+          }
+        ],
+        "/webasgalbstack/webasgalbstack/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webasgalbstackPolicyBCA6E11F"
+          }
+        ],
+        "/webasgalbstack/webasgalbstack/AutoDeleteObjectsCustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "webasgalbstackAutoDeleteObjectsCustomResourceDC87B7CB"
+          }
+        ],
+        "/webasgalbstack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+          }
+        ],
+        "/webasgalbstack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+          }
+        ],
+        "/webasgalbstack/Script Bucket Deployment/AwsCliLayer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ScriptBucketDeploymentAwsCliLayerB7A8FB27"
+          }
+        ],
+        "/webasgalbstack/Script Bucket Deployment/CustomResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ScriptBucketDeploymentCustomResource927326AA"
+          }
+        ],
+        "/webasgalbstack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265"
+          }
+        ],
+        "/webasgalbstack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRoleDefaultPolicy88902FDF"
+          }
+        ],
+        "/webasgalbstack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C81C01536"
+          }
+        ],
+        "/webasgalbstack/Webserver LoadBalancer/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverLoadBalancer9A4D8843"
+          }
+        ],
+        "/webasgalbstack/Webserver LoadBalancer/SecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverLoadBalancerSecurityGroup41598D3A"
+          }
+        ],
+        "/webasgalbstack/Webserver LoadBalancer/SecurityGroup/to webasgalbstackWebSG6766A83C:80": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverLoadBalancerSecurityGrouptowebasgalbstackWebSG6766A83C80E11A5978"
+          }
+        ],
+        "/webasgalbstack/Webserver LoadBalancer/Redirect80To443/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverLoadBalancerRedirect80To4436D3C0841"
+          }
+        ],
+        "/webasgalbstack/Webserver LoadBalancer/listener for HTTP/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverLoadBalancerlistenerforHTTP8094F852"
+          }
+        ],
+        "/webasgalbstack/Webserver LoadBalancer/listener for HTTP/asg target groupGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "WebserverLoadBalancerlistenerforHTTPasgtargetgroupGroup4116E554"
+          }
+        ],
+        "/webasgalbstack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/webasgalbstack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/webasgalbstack/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/webasgalbstack/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "webasgalbstack"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}

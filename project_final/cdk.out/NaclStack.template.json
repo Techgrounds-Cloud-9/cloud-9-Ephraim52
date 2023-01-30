@@ -1,0 +1,1007 @@
+{
+ "Resources": {
+  "privateWebVPCAcl2E141BCD": {
+   "Type": "AWS::EC2::NetworkAcl",
+   "Properties": {
+    "VpcId": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputRefWebserverVPC3C31823CA099E98D"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/Resource"
+   }
+  },
+  "privateWebVPCAclDefaultAssociationvpcstackWebserverVPCprivateSubnet17822171D1A772075": {
+   "Type": "AWS::EC2::SubnetNetworkAclAssociation",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "SubnetId": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputRefWebserverVPCprivateSubnet1SubnetB499AF8883C32BAA"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/DefaultAssociationvpcstackWebserverVPCprivateSubnet17822171D/Resource"
+   }
+  },
+  "privateWebVPCAclDefaultAssociationvpcstackWebserverVPCprivateSubnet293D77A139A2A5910": {
+   "Type": "AWS::EC2::SubnetNetworkAclAssociation",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "SubnetId": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputRefWebserverVPCprivateSubnet2SubnetFFA48BDFC86F5370"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/DefaultAssociationvpcstackWebserverVPCprivateSubnet293D77A13/Resource"
+   }
+  },
+  "privateWebVPCAclHTTPinboundallow1E1E9AF2": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 100,
+    "CidrBlock": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputFnGetAttWebserverVPC3C31823CCidrBlock69939038"
+    },
+    "Egress": false,
+    "PortRange": {
+     "From": 80,
+     "To": 80
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/HTTP inbound allow/Resource"
+   }
+  },
+  "privateWebVPCAclHTTPoutboundallow60B18397": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 100,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": true,
+    "PortRange": {
+     "From": 80,
+     "To": 80
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/HTTP outbound allow/Resource"
+   }
+  },
+  "privateWebVPCAclHTTPSinboundallow7CB9D3D9": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 110,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": false,
+    "PortRange": {
+     "From": 443,
+     "To": 443
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/HTTPS inbound allow/Resource"
+   }
+  },
+  "privateWebVPCAclHTTPoutboundallowCB5DA66A": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 110,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": true,
+    "PortRange": {
+     "From": 443,
+     "To": 443
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/HTTP-outbound-allow/Resource"
+   }
+  },
+  "privateWebVPCAclSSHinboundallowBCC05C97": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 120,
+    "CidrBlock": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputFnGetAttAdminVPC20736A37CidrBlock9C02BE30"
+    },
+    "Egress": false,
+    "PortRange": {
+     "From": 22,
+     "To": 22
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/SSH inbound allow/Resource"
+   }
+  },
+  "privateWebVPCAclSSHEphemeraloutboundallow8AFF7951": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 120,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": true,
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/SSH Ephemeral outbound allow/Resource"
+   }
+  },
+  "privateWebVPCAclEphemeralHTTPinboundallow0C91057A": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 130,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": false,
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/Ephemeral HTTP inbound allow/Resource"
+   }
+  },
+  "privateWebVPCAclEphemeraltoHTTPSoutboundallowC46680F0": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 130,
+    "Egress": true,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 80,
+     "To": 80
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/Ephemeral to HTTPS outbound allow/Resource"
+   }
+  },
+  "privateWebVPCAclEphemeralipv6inboundallowACEE39FB": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 140,
+    "Egress": false,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/Ephemeral ipv6 inbound allow/Resource"
+   }
+  },
+  "privateWebVPCAclHTTPSoutboundallow05618B82": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 150,
+    "Egress": true,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 443,
+     "To": 443
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/HTTPS outbound allow/Resource"
+   }
+  },
+  "privateWebVPCAclEphemeraloutboundallow4F6B379A": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "privateWebVPCAcl2E141BCD"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 160,
+    "Egress": true,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/private Web VPC Acl/Ephemeral outbound allow/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclBF5F0796": {
+   "Type": "AWS::EC2::NetworkAcl",
+   "Properties": {
+    "VpcId": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputRefWebserverVPC3C31823CA099E98D"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclDefaultAssociationvpcstackWebserverVPCpublicSubnet16D50F9A91EF6D004": {
+   "Type": "AWS::EC2::SubnetNetworkAclAssociation",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "SubnetId": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputRefWebserverVPCpublicSubnet1SubnetD1A72416B1625E4E"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/DefaultAssociationvpcstackWebserverVPCpublicSubnet16D50F9A9/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclDefaultAssociationvpcstackWebserverVPCpublicSubnet28D417C5214BC9E05": {
+   "Type": "AWS::EC2::SubnetNetworkAclAssociation",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "SubnetId": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputRefWebserverVPCpublicSubnet2Subnet7144402FC2A0B306"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/DefaultAssociationvpcstackWebserverVPCpublicSubnet28D417C52/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclHTTPinboundallow3A81DE3C": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 300,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": false,
+    "PortRange": {
+     "From": 80,
+     "To": 80
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/HTTP inbound allow/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclHTTPoutboundallow639174EE": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 300,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": true,
+    "PortRange": {
+     "From": 80,
+     "To": 80
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/HTTP outbound allow/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclHTTPSinboundallow51838382": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 310,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": false,
+    "PortRange": {
+     "From": 443,
+     "To": 443
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/HTTPS inbound allow/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclHTTPSoutboundallow72C74098": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 310,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": true,
+    "PortRange": {
+     "From": 443,
+     "To": 443
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/HTTPS outbound allow/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclEphemeralinboundallowF4DC269F": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 320,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": false,
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/Ephemeral inbound allow/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclEphemeraloutboundallowA428AFFF": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 320,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": true,
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/Ephemeral outbound allow/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclEphemeralipv6inboundallowCB4D6063": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 330,
+    "Egress": false,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/Ephemeral ipv6 inbound allow/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclEphemeralipv6outboundallowC91AAEB3": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 330,
+    "Egress": true,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/Ephemeral ipv6 outbound allow/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclHTTPipv6inboundallowC38BBDE2": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 340,
+    "Egress": false,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 80,
+     "To": 80
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/HTTP ipv6 inbound allow/Resource"
+   }
+  },
+  "publicloadbalancerwebserveraclHTTPSipv6inboundallowA18F9B22": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "publicloadbalancerwebserveraclBF5F0796"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 350,
+    "Egress": false,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 443,
+     "To": 443
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/public load balancer webserver acl/HTTPS ipv6 inbound allow/Resource"
+   }
+  },
+  "AdminVPCAcl444441A8": {
+   "Type": "AWS::EC2::NetworkAcl",
+   "Properties": {
+    "VpcId": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputRefAdminVPC20736A37813A23B9"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/Resource"
+   }
+  },
+  "AdminVPCAclDefaultAssociationvpcstackAdminVPCpublicSubnet104C39EC91D5DEFFD": {
+   "Type": "AWS::EC2::SubnetNetworkAclAssociation",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "SubnetId": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputRefAdminVPCpublicSubnet1SubnetD4FB6981EC2D639B"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/DefaultAssociationvpcstackAdminVPCpublicSubnet104C39EC9/Resource"
+   }
+  },
+  "AdminVPCAclDefaultAssociationvpcstackAdminVPCpublicSubnet2AC6B43885747F6FE": {
+   "Type": "AWS::EC2::SubnetNetworkAclAssociation",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "SubnetId": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputRefAdminVPCpublicSubnet2Subnet69C0699E230C25DD"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/DefaultAssociationvpcstackAdminVPCpublicSubnet2AC6B4388/Resource"
+   }
+  },
+  "AdminVPCAclSSHhomeinboundallow6553A300": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 100,
+    "CidrBlock": "83.81.114.11/32",
+    "Egress": false,
+    "PortRange": {
+     "From": 22,
+     "To": 22
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/SSH home inbound allow/Resource"
+   }
+  },
+  "AdminVPCAclSSHweboutboundallowA27CA22F": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 100,
+    "CidrBlock": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputFnGetAttWebserverVPC3C31823CCidrBlock69939038"
+    },
+    "Egress": true,
+    "PortRange": {
+     "From": 22,
+     "To": 22
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/SSH web outbound allow/Resource"
+   }
+  },
+  "AdminVPCAclRDPinboundallow60CF15A4": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 140,
+    "CidrBlock": "83.81.114.11/32",
+    "Egress": false,
+    "PortRange": {
+     "From": 3389,
+     "To": 3389
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/RDP inbound allow/Resource"
+   }
+  },
+  "AdminVPCAclRDPoutboundallowBCC00FCC": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 140,
+    "Egress": true,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 80,
+     "To": 80
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/RDP outbound allow/Resource"
+   }
+  },
+  "AdminVPCAclEphemeralipv4inboundwebBA8C7366": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 110,
+    "CidrBlock": {
+     "Fn::ImportValue": "vpcstack:ExportsOutputFnGetAttWebserverVPC3C31823CCidrBlock69939038"
+    },
+    "Egress": false,
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/Ephemeral ipv4 inbound web/Resource"
+   }
+  },
+  "AdminVPCAclHTTPSipv6outboundweb11F02552": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 110,
+    "Egress": true,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 443,
+     "To": 443
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/HTTPS ipv6 outbound web/Resource"
+   }
+  },
+  "AdminVPCAclEphemeralipv6inboundallowtrustedip6A395D8B": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 150,
+    "Egress": false,
+    "Ipv6CidrBlock": "::/0",
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/Ephemeral ipv6 inbound allow trusted ip/Resource"
+   }
+  },
+  "AdminVPCAclEphemeralipv4outboundtrustedipDA56DE07": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 150,
+    "CidrBlock": "83.81.114.11/32",
+    "Egress": true,
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/Ephemeral ipv4 outbound trusted ip/Resource"
+   }
+  },
+  "AdminVPCAclEphemeralipv4inboundallowAA9E07AB": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 160,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": false,
+    "PortRange": {
+     "From": 1024,
+     "To": 65535
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/Ephemeral ipv4 inbound allow/Resource"
+   }
+  },
+  "AdminVPCAclHTTPoutboundweb5AE9B7A7": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 160,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": true,
+    "PortRange": {
+     "From": 80,
+     "To": 80
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/HTTP outbound web/Resource"
+   }
+  },
+  "AdminVPCAclHTTPSoutboundwebD03D2219": {
+   "Type": "AWS::EC2::NetworkAclEntry",
+   "Properties": {
+    "NetworkAclId": {
+     "Ref": "AdminVPCAcl444441A8"
+    },
+    "Protocol": 6,
+    "RuleAction": "allow",
+    "RuleNumber": 170,
+    "CidrBlock": "0.0.0.0/0",
+    "Egress": true,
+    "PortRange": {
+     "From": 443,
+     "To": 443
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/Admin VPC Acl/HTTPS outbound web/Resource"
+   }
+  },
+  "CDKMetadata": {
+   "Type": "AWS::CDK::Metadata",
+   "Properties": {
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/33MwQ6CMAwG4GfhvlXE4J0Qr4bAA5gxZqzDLtm6EEJ4d50e0Iuntl/bv4DyCHmmpiD1YOWIPSwdK23Fiy5GF7CcDU/O20qPor7S19TFngxvUIXgNCpGR+ny33rTE7Gff4PftCZrTXDRa5P62tGA6XkVzcw3R7sD7HMos3tAlD4S48NA+6lPmJoQftcAAAA="
+   },
+   "Metadata": {
+    "aws:cdk:path": "NaclStack/CDKMetadata/Default"
+   },
+   "Condition": "CDKMetadataAvailable"
+  }
+ },
+ "Conditions": {
+  "CDKMetadataAvailable": {
+   "Fn::Or": [
+    {
+     "Fn::Or": [
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "af-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-east-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-northeast-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-northeast-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-southeast-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-southeast-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ca-central-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "cn-north-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "cn-northwest-1"
+       ]
+      }
+     ]
+    },
+    {
+     "Fn::Or": [
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-central-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-north-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-west-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-west-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-west-3"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "me-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "sa-east-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "us-east-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "us-east-2"
+       ]
+      }
+     ]
+    },
+    {
+     "Fn::Or": [
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "us-west-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "us-west-2"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "Parameters": {
+  "BootstrapVersion": {
+   "Type": "AWS::SSM::Parameter::Value<String>",
+   "Default": "/cdk-bootstrap/hnb659fds/version",
+   "Description": "Version of the CDK Bootstrap resources in this environment, automatically retrieved from SSM Parameter Store. [cdk:skip]"
+  }
+ },
+ "Rules": {
+  "CheckBootstrapVersion": {
+   "Assertions": [
+    {
+     "Assert": {
+      "Fn::Not": [
+       {
+        "Fn::Contains": [
+         [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+         ],
+         {
+          "Ref": "BootstrapVersion"
+         }
+        ]
+       }
+      ]
+     },
+     "AssertDescription": "CDK bootstrap stack version 6 required. Please run 'cdk bootstrap' with a recent version of the CDK CLI."
+    }
+   ]
+  }
+ }
+}

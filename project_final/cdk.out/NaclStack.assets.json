@@ -1,0 +1,19 @@
+{
+  "version": "22.0.0",
+  "files": {
+    "f037aa01ce7f78e59623a8d204974f6840a98ce3d68e33a79414b5d19a9da9b9": {
+      "source": {
+        "path": "NaclStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "f037aa01ce7f78e59623a8d204974f6840a98ce3d68e33a79414b5d19a9da9b9.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

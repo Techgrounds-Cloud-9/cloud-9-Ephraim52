@@ -1,0 +1,19 @@
+{
+  "version": "22.0.0",
+  "files": {
+    "a8746de62afcc24cd17afc217a8c666e6fd337ed83211f04d3491881bd96876d": {
+      "source": {
+        "path": "MyCertificate.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "a8746de62afcc24cd17afc217a8c666e6fd337ed83211f04d3491881bd96876d.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
