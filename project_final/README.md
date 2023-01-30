@@ -26,6 +26,8 @@
 12. Only the trusted ip refered to the variable my_ip which can contain ip address you trust has the ability to make the RDP 
     with the admin server and the SSH connection with the webserver.
 13. Some IAM roles have been created to provide only access to the resources required to function.
+14. The .venv folder is missing due to the fact that everytime you want to initialize this environment it will create a 
+15. new .venv folder.
 
 
 # How to use the CDK Toolkit
@@ -58,7 +60,7 @@ npm install -g aws-cdk
 ```
 - Install Python and set it to the PATH of your environment. Download the installer from: https://www.python.org/downloads/
 
-# How to use your CDK environment
+# How to use your CDK environment - if you already have this start from line 72
 - Create a folder/directory in which you will initiate the environment and download the files in using:
 ```
 mkdir cdk_workshop && cd cdk_workshop
